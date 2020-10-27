@@ -1,0 +1,88 @@
+.container-header {
+  position: relative;
+  top: 5px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  overflow: hidden;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.container-header img {
+background-position: center center;
+background-size: cover;
+}
+
+.account-img img {
+width: 100px;
+height: 100px;
+background-color: white;
+border-radius: 50%;
+}
+.account-name {
+padding: 10px;
+}
+.account-info {
+background-color: #fff;
+color: #000;
+padding: 10px 0 ;
+border: 1px solid #eee;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.full-name {
+font-weight: bold;
+}
+
+.account-info-item span {
+font-weight: bold;
+}
+.container-body {
+background-color: #fff;
+width: 240px;
+border: 1px solid #eee;
+border-right: none;
+}
+.side-item {
+padding: 15px 15px;
+cursor: pointer;
+display: flex;
+align-items: center;
+position: relative;
+background-color: #eeeeeec9;
+color: #000;
+}
+.side-item-title {
+margin-left: 10px;
+}
+
+.fix-width-icon {
+width: 35px;
+text-align: center;
+}
+.fa-2x {
+font-size: 2em;
+}
+.side-item-title  b {
+font-size: 16px;
+}
+.side-item-title div {
+font-size: 14px;
+}
+.sidebar-active {
+content: "";
+border-left: 5px solid #21beff;
+bottom: 0;
+left: -2px;
+top: 0;
+}
+.container-main {
+display: flex;
+}
+.container-body-container {
+width: calc(100% - 240px);
+  background-color: #fff;
+  padding: 25px 30px;
+  min-height: 512px;
+  border: 1px solid #eee;
+  border-left: none;
+}

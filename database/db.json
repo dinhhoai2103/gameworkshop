@@ -1,0 +1,1723 @@
+{
+  "userlist": [
+    {
+      "firstname": "Nguyen",
+      "lastname": "A",
+      "email": "hoai@gmail.com",
+      "password": "123123123",
+      "phone": "0791231123",
+      "money": 8000,
+      "time": "23-10-2020",
+      "id": 1
+    }
+  ],
+  "wishlist": [
+    {
+      "idUser": 1,
+      "idGame": 3,
+      "name": "PlayerUnknown's Battlegrounds",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/PUBG-ratbt-457x213.png",
+      "price": 260000,
+      "amount": 200,
+      "id": 1
+    },
+    {
+      "idUser": 1,
+      "idGame": 2,
+      "name": "Among Us",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/945360/header.jpg",
+      "price": 69000,
+      "amount": 200,
+      "id": 2
+    },
+    {
+      "idUser": 1,
+      "idGame": 1,
+      "name": "Fall Guys: Ultimate Knockout",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1097150/header.jpg",
+      "price": 187000,
+      "amount": 200,
+      "id": 3
+    },
+    {
+      "idUser": 1,
+      "idGame": 4,
+      "name": "Left 4 Dead 2",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/550/header.jpg",
+      "price": 119000,
+      "amount": 0,
+      "id": 4
+    },
+    {
+      "idUser": 1,
+      "idGame": 10,
+      "name": "Grand Theft Auto V - GTA V",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/271590/header.jpg",
+      "price": 458000,
+      "amount": 200,
+      "id": 5
+    }
+  ],
+  "cartData": [
+    {
+      "idUser": 1,
+      "idGame": 109,
+      "name": "JRPG Bundle",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/size-3/82862-457x213.jpg",
+      "price": 99000,
+      "amount": 200,
+      "soluong": 1,
+      "isPay": true,
+      "time": "20:23 26-10-2020",
+      "id": 13
+    },
+    {
+      "idUser": 1,
+      "idGame": 1,
+      "name": "Fall Guys: Ultimate Knockout",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1097150/header.jpg",
+      "price": 187000,
+      "amount": 200,
+      "soluong": 2,
+      "isPay": true,
+      "time": "13:35 27-10-2020",
+      "id": 14
+    },
+    {
+      "idUser": 1,
+      "idGame": 2,
+      "name": "Among Us",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/945360/header.jpg",
+      "price": 69000,
+      "amount": 200,
+      "soluong": 1,
+      "isPay": true,
+      "time": "13:35 27-10-2020",
+      "id": 15
+    },
+    {
+      "idUser": 1,
+      "idGame": 3,
+      "name": "PlayerUnknown's Battlegrounds",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/PUBG-ratbt-457x213.png",
+      "price": 260000,
+      "amount": 200,
+      "soluong": 1,
+      "isPay": true,
+      "time": "13:35 27-10-2020",
+      "id": 16
+    },
+    {
+      "idUser": 1,
+      "idGame": 5,
+      "name": "Human: Fall Flat",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/477160/header.jpg",
+      "price": 65000,
+      "amount": 200,
+      "soluong": 2,
+      "isPay": true,
+      "time": "13:35 27-10-2020",
+      "id": 17
+    },
+    {
+      "idUser": 1,
+      "idGame": 9,
+      "name": "Agrou",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1305420/header.jpg",
+      "price": 139000,
+      "amount": 200,
+      "soluong": 2,
+      "isPay": true,
+      "time": "13:35 27-10-2020",
+      "id": 18
+    }
+  ],
+  "gamedata": [
+    {
+      "id": 1,
+      "name": "Fall Guys: Ultimate Knockout",
+      "type": "Casual",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1097150/header.jpg",
+      "video": "https://www.youtube.com/embed/Wj3dUvGLjNQ",
+      "price": 187000,
+      "amount": 200,
+      "slide": [
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/header.jpg",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_dffa1e7c9c67f84b10a48481713f15d1016698b5.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_ce4bbc7829c339f77e302ca75bbe66b371a71dbe.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_a0758d69b45b016a386761e1415f2227542c27be.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_5482313e285391e79b888ff8b45a1658aff91d86.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_1ece8bbe347c159fc3e87f82d25064d88d15f08f.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_df2d12f278d6c0203e11fece84fc50226ff077d6.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_9e7f6eedd127e33298db07b13b4ff513e71de829.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_feb6f226399553f18fce1116e30ee22680b5f69b.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_8c8140d3239ce4a9199c5e7f16cb81182ef18047.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_b2b6b170330b8af1f50d0e90efad984adafeb281.600x338.jpg?t=1595511261"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Among Us",
+      "type": "Casual",
+      "style": "type",
+      "category": "steam",
+      "hot": "https://wongstore.com/uploads/2/2020-09/header_2.jpg",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/945360/header.jpg",
+      "price": 69000,
+      "amount": 200,
+      "slide": [
+        "https://steamcdn-a.akamaihd.net/steam/apps/945360/header.jpg",
+        "https://steamcdn-a.akamaihd.net/steam/apps/945360/ss_c80d2f3fab624b18d9531adc6957767a7fede100.600x338.jpg?t=1542387642",
+        "https://steamcdn-a.akamaihd.net/steam/apps/945360/ss_a0f2416e11bf5b47788eaa3617e092b73962b145.600x338.jpg?t=1542387642",
+        "https://steamcdn-a.akamaihd.net/steam/apps/945360/ss_649e19ff657fa518d4c2b45bed7ffdc4264a4b3a.600x338.jpg?t=1542387642",
+        "https://steamcdn-a.akamaihd.net/steam/apps/945360/ss_eab32f16b59c005489c10f9063227ed7b54b31ec.600x338.jpg?t=1542387642",
+        "https://steamcdn-a.akamaihd.net/steam/apps/945360/ss_7ccc894b8f95091f608fa012450549091cce2423.600x338.jpg?t=1542387642",
+        "https://steamcdn-a.akamaihd.net/steam/apps/945360/ss_943c487e302fa5fc303d59e45a03218e25a2a59c.600x338.jpg?t=1542387642"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "PlayerUnknown's Battlegrounds",
+      "type": "Action",
+      "style": "type",
+      "category": "steam",
+      "hot": "https://wongstore.com/uploads/2/2020-07/6634787.jpg",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/PUBG-ratbt-457x213.png",
+      "price": 260000,
+      "amount": 200
+    },
+    {
+      "id": 4,
+      "name": "Left 4 Dead 2",
+      "type": "Action",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/550/header.jpg",
+      "price": 119000,
+      "amount": 0
+    },
+    {
+      "id": 5,
+      "name": "Human: Fall Flat",
+      "type": "Adventure",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/477160/header.jpg",
+      "price": 65000,
+      "amount": 200
+    },
+    {
+      "id": 6,
+      "name": "Rust",
+      "type": "Adventure",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/252490/header.jpg",
+      "price": 309000,
+      "amount": 0
+    },
+    {
+      "id": 7,
+      "name": "Sea of Thieves",
+      "type": "Adventure",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1172620/header.jpg",
+      "price": 309000,
+      "amount": 0
+    },
+    {
+      "id": 8,
+      "name": "Mad Max",
+      "type": "Action",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/234140/header.jpg",
+      "price": 187000,
+      "amount": 200
+    },
+    {
+      "id": 9,
+      "name": "Agrou",
+      "type": "Casual",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1305420/header.jpg",
+      "price": 139000,
+      "amount": 200
+    },
+    {
+      "id": 10,
+      "name": "Grand Theft Auto V - GTA V",
+      "type": "Action",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/271590/header.jpg",
+      "slide": [
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_32aa18ab3175e3002217862dd5917646d298ab6b.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_2744f112fa060320d191a50e8b3a92441a648a56.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_da39c16db175f6973770bae6b91d411251763152.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_bd5db78286be0a7c6b2c62519099a9e27e6b06f3.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_b1a1cb7959d6a0e6fcb2d06ebf97a66c9055cef3.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_bc5fc79d3366c837372327717249a4887aa46d63.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_d2eb9d3e50f9e4cb8db37d2976990b3795da8187.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_bd944debbec9936769f6dfb39ee456ca605615e3.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_66daaa8e0416b805ffb9a853235e21468d6b85bc.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_3820844756ae43340809e247fea327025dca1e39.600x338.jpg?t=1539304955"
+      ],
+      "price": 458000,
+      "amount": 200
+    },
+    {
+      "id": 11,
+      "name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
+      "type": "Adventure",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/349040/header.jpg",
+      "price": 648000,
+      "amount": 200
+    },
+    {
+      "id": 12,
+      "name": "NieR:Automata™",
+      "type": "Action",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/524220/header.jpg",
+      "price": 415000,
+      "amount": 200
+    },
+    {
+      "id": 13,
+      "name": "Batman: Arkham City - Game of the Year Edition",
+      "type": "Action",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/200260/header.jpg",
+      "price": 187000,
+      "amount": 200
+    },
+    {
+      "id": 14,
+      "name": "Hand Simulator: Survival",
+      "type": "Simulator",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/924140/header.jpg",
+      "price": 14000,
+      "amount": 200
+    },
+    {
+      "id": 15,
+      "name": "Counter-Strike: Global Prime Status Upgrade",
+      "type": "Action",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/subs/54029/header.jpg",
+      "price": 341000,
+      "amount": 200
+    },
+    {
+      "id": 16,
+      "name": "EA SPORTS™ FIFA 21",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1313860/header.jpg",
+      "price": 1397000,
+      "amount": 200
+    },
+    {
+      "id": 17,
+      "name": "No Man's Sky",
+      "type": "Adventure",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/275850/header.jpg",
+      "price": 239000,
+      "amount": 200
+    },
+    {
+      "id": 18,
+      "name": "Mortal Kombat 11",
+      "type": "Action",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/976310/header.jpg",
+      "price": 588000,
+      "amount": 200
+    },
+    {
+      "id": 19,
+      "name": "ARK: Survival Evolved",
+      "type": "Adventure",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/346110/header.jpg",
+      "price": 389000,
+      "amount": 200
+    },
+    {
+      "id": 20,
+      "name": "DRAGON BALL FighterZ",
+      "type": "Action",
+      "style": "type",
+      "category": "steam",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/DRAGONBALLFighterZ-457x213.jpg",
+      "price": 1077000,
+      "amount": 200
+    },
+    {
+      "id": 21,
+      "name": "LEGO® Marvel Super Heroes 2",
+      "type": "Action",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/647830/header.jpg",
+      "price": 199000,
+      "amount": 200
+    },
+    {
+      "id": 22,
+      "name": "Grounded",
+      "type": "Adventure",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/962130/header.jpg",
+      "price": 249000,
+      "amount": 200
+    },
+    {
+      "id": 23,
+      "name": "Streamer Life Simulator",
+      "type": "Simulator",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1261040/header.jpg",
+      "price": 187000,
+      "amount": 200
+    },
+    {
+      "id": 24,
+      "name": "Hand Simulator",
+      "type": "Simulator",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/657200/header.jpg",
+      "price": 29000,
+      "amount": 200
+    },
+    {
+      "id": 25,
+      "name": "OMafia: Definitive Edition",
+      "type": "Action",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1030840/header.jpg",
+      "price": 696000,
+      "amount": 200
+    },
+    {
+      "id": 26,
+      "name": "METAL GEAR SOLID V: The Definitive Experience",
+      "type": "Action",
+      "style": "type",
+      "category": "origin",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Thang/MetalGearSolidV-457x213.png",
+      "price": 249000,
+      "amount": 200
+    },
+    {
+      "id": 27,
+      "name": "Battlefield 1",
+      "type": "Action",
+      "style": "type",
+      "category": "origin",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/bf1-457x213.png",
+      "price": 330000,
+      "amount": 200
+    },
+    {
+      "id": 28,
+      "name": "Battlefield 4",
+      "type": "Action",
+      "style": "type",
+      "category": "origin",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/bf4-457x213.png",
+      "price": 300000,
+      "amount": 200
+    },
+    {
+      "id": 29,
+      "name": "Battlefield 4 Premium Edition",
+      "type": "Action",
+      "style": "type",
+      "category": "origin",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/wallet/maxresdefault-1-4-460x215-457x213.jpg",
+      "price": 800000,
+      "amount": 200
+    },
+    {
+      "id": 30,
+      "name": "The Sims™ 4",
+      "type": "Casual",
+      "style": "type",
+      "category": "origin",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh/Image%203199-457x213.png",
+      "price": 300000,
+      "amount": 200
+    },
+    {
+      "id": 31,
+      "name": "Rocket League®",
+      "type": "Casual",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/252950/header.jpg",
+      "price": 187000,
+      "amount": 200
+    },
+    {
+      "id": 32,
+      "name": "The Crew™ 2",
+      "type": "Racing",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/646910/header.jpg",
+      "price": 823000,
+      "amount": 200
+    },
+    {
+      "id": 33,
+      "name": "Sleeping Dogs: Definitive Edition",
+      "type": "Action",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/307690/header.jpg",
+      "price": 415000,
+      "amount": 200
+    },
+    {
+      "id": 34,
+      "name": "BEEP",
+      "type": "Casual",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/104200/header.jpg",
+      "price": 30000,
+      "amount": 200
+    },
+    {
+      "id": 35,
+      "name": "DiRT Rally",
+      "type": "Racing",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/310560/header.jpg",
+      "price": 187000,
+      "amount": 200
+    },
+    {
+      "id": 36,
+      "name": "Need For Speed: Hot Pursuit",
+      "type": "Racing",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/47870/header.jpg",
+      "price": 187000,
+      "amount": 200
+    },
+    {
+      "id": 37,
+      "name": "The Crew™",
+      "type": "Racing",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/241560/header.jpg",
+      "price": 494000,
+      "amount": 200
+    },
+    {
+      "id": 38,
+      "name": "Call of Duty®: WWII",
+      "type": "Action",
+      "style": "type",
+      "category": "battle",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/476600/header.jpg",
+      "price": 1360000,
+      "amount": 200
+    },
+    {
+      "id": 39,
+      "name": "Call of Duty®: Modern Warfare® 2",
+      "type": "Action",
+      "style": "type",
+      "category": "battle",
+      "hot": "https://wongstore.com/uploads/2/2020-10/cont2.png",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/10180/header.jpg",
+      "price": 453000,
+      "amount": 200
+    },
+    {
+      "id": 40,
+      "name": "Call of Duty®: Modern Warfare® Remastered",
+      "type": "Action",
+      "style": "type",
+      "category": "battle",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/393080/header.jpg",
+      "price": 907000,
+      "amount": 200
+    },
+    {
+      "id": 41,
+      "name": "Call of Duty®: Black Ops",
+      "type": "Action",
+      "style": "type",
+      "category": "battle",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/42700/header.jpg",
+      "price": 907000,
+      "amount": 200
+    },
+    {
+      "id": 42,
+      "name": "Call of Duty: Black Ops III - Multiplayer Starter Pack",
+      "type": "Action",
+      "style": "type",
+      "category": "battle",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/437350/header.jpg",
+      "price": 339000,
+      "amount": 200
+    },
+    {
+      "id": 43,
+      "name": "Call of Duty®: Black Ops III - Season Pass",
+      "type": "Action",
+      "style": "type",
+      "category": "battle",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/366843/header.jpg",
+      "price": 1133000,
+      "amount": 200
+    },
+    {
+      "id": 44,
+      "name": "Call of Duty® 2",
+      "type": "Action",
+      "style": "type",
+      "category": "battle",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/2630/header.jpg",
+      "price": 453000,
+      "amount": 200
+    },
+    {
+      "id": 45,
+      "name": "Call of Duty: World at War",
+      "type": "Action",
+      "style": "type",
+      "category": "battle",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/10090/header.jpg",
+      "price": 453000,
+      "amount": 200
+    },
+    {
+      "id": 46,
+      "name": "Call of Duty®: Infinite Warfare - Season Pass",
+      "type": "Action",
+      "style": "type",
+      "category": "battle",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/420490/header.jpg",
+      "price": 1133000,
+      "amount": 200
+    },
+    {
+      "id": 47,
+      "name": "Call of Duty®: Infinite Warfare",
+      "type": "Action",
+      "style": "type",
+      "category": "battle",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/292730/header.jpg",
+      "price": 1360000,
+      "amount": 200
+    },
+    {
+      "id": 48,
+      "name": "Diablo 3",
+      "type": "Action",
+      "style": "type",
+      "category": "battle",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/diablo%203-457x213.png",
+      "price": 480000,
+      "amount": 200
+    },
+    {
+      "id": 49,
+      "name": "Diablo 3 Battlechest",
+      "type": "Action",
+      "style": "type",
+      "category": "battle",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Diablo%203%20Battlechest-457x213.png",
+      "price": 720000,
+      "amount": 200
+    },
+    {
+      "id": 50,
+      "name": "Diablo 3: Reaper of Souls (DLC)",
+      "type": "Action",
+      "style": "type",
+      "category": "battle",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Reaper%20of%20Souls-457x213.png",
+      "price": 380000,
+      "amount": 200
+    },
+    {
+      "id": 51,
+      "name": "Diablo 3: Rise of the Necromancer ( DLC )",
+      "type": "Action",
+      "style": "type",
+      "category": "battle",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Diablo%203%20Rise%20of%20the%20Necromancer-457x213.png",
+      "price": 350000,
+      "amount": 200
+    },
+    {
+      "id": 52,
+      "name": "Overwatch Standard Edition",
+      "type": "Action",
+      "style": "type",
+      "category": "battle",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/overwatch-457x213.png",
+      "price": 480000,
+      "amount": 200
+    },
+    {
+      "id": 53,
+      "name": "steam Wallet Code 27,000 VND",
+      "category": "code",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Hung-2020/steam%20wallet%2028000-457x213.png",
+      "price": 34000,
+      "amount": 200
+    },
+    {
+      "id": 54,
+      "name": "steam Wallet Code 75,000 VND",
+      "category": "code",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/75k-457x213.png",
+      "price": 85000,
+      "amount": 200
+    },
+    {
+      "id": 55,
+      "name": "steam Wallet Code 100,000 VND",
+      "category": "code",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Karama/steam%20wallet%20100000-457x213.png",
+      "price": 110000,
+      "amount": 200
+    },
+    {
+      "id": 56,
+      "name": "steam Wallet Code 118k VNĐ ( >5$ )",
+      "category": "code",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/40hkd-457x213-457x213.png",
+      "price": 127000,
+      "amount": 200
+    },
+    {
+      "id": 57,
+      "name": "steam Wallet Code 149k VNĐ",
+      "category": "code",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/steam%20wallet%2050hkd-457x213.png",
+      "price": 159000,
+      "amount": 200
+    },
+    {
+      "id": 58,
+      "name": "steam Wallet Code 236k VNĐ ( >10$ )",
+      "category": "code",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-san-pham/wallet80HKD-457x213.png",
+      "price": 250000,
+      "amount": 200
+    },
+    {
+      "id": 59,
+      "name": "Gói Nạp PUBG Mobile 1500 UC (+300 Bonus)",
+      "category": "mobile",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/PUBGm/1500-457x213.png",
+      "price": 500000,
+      "amount": 200
+    },
+    {
+      "id": 60,
+      "name": "Gói Nạp PUBG Mobile 600 UC (+60 Bonus)",
+      "category": "mobile",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/PUBGm/600-457x213.png",
+      "price": 200000,
+      "amount": 200
+    },
+    {
+      "id": 61,
+      "name": "Gói Nạp PUBG Mobile 6000 UC (+2100 Bonus)",
+      "category": "mobile",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/PUBGm/6000-457x213.png",
+      "price": 2000000,
+      "amount": 200
+    },
+    {
+      "id": 62,
+      "name": "Gói nạp Gems Clash of Clans (500 Gems)",
+      "category": "mobile",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/CoC/500-457x213.png",
+      "price": 95000,
+      "amount": 200
+    },
+    {
+      "id": 63,
+      "name": "Gói nạp Gems Clash of Clans (1200 Gems)",
+      "category": "mobile",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/CoC/1200-457x213.png",
+      "price": 190000,
+      "amount": 200
+    },
+    {
+      "id": 64,
+      "name": "Gói nạp Gems Clash of Clans (6500 Gems)",
+      "category": "mobile",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/CoC/6500-457x213.png",
+      "price": 900000,
+      "amount": 200
+    },
+    {
+      "id": 65,
+      "name": "Gói nạp Khuyết Ngọc Âm Dương Sư (300 Khuyết Ngọc)",
+      "category": "mobile",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/AM%20DUONG%20SU/x300-457x213.png",
+      "price": 100000,
+      "amount": 200
+    },
+    {
+      "id": 66,
+      "name": "Gói nạp Khuyết Ngọc Âm Dương Sư (680 Khuyết Ngọc)",
+      "category": "mobile",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/AM%20DUONG%20SU/x680-457x213.png",
+      "price": 200000,
+      "amount": 200
+    },
+    {
+      "id": 67,
+      "name": "Gói nạp Khuyết Ngọc Âm Dương Sư (3280 Khuyết Ngọc)",
+      "category": "mobile",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/AM%20DUONG%20SU/3280-457x213.png",
+      "price": 1000000,
+      "amount": 200
+    },
+    {
+      "id": 68,
+      "name": "Gói nạp Khuyết Ngọc Âm Dương Sư (6480 Khuyết Ngọc)",
+      "category": "mobile",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/AM%20DUONG%20SU/6480-457x213.png",
+      "price": 2000000,
+      "amount": 200
+    },
+    {
+      "id": 69,
+      "name": "Gói Nạp PUBG Mobile 1500 UC (+300 Bonus)",
+      "category": "mobile",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/PUBGm/1500-457x213.png",
+      "price": 500000,
+      "amount": 200
+    },
+    {
+      "id": 70,
+      "name": "Microsoft Flight Simulator X: steam Edition",
+      "type": "Simulator",
+      "style": "type",
+      "category": "xbox",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/314160/header.jpg",
+      "price": 219000,
+      "amount": 200
+    },
+    {
+      "id": 71,
+      "name": "Microsoft Flight Simulator",
+      "type": "Simulator",
+      "style": "type",
+      "category": "xbox",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1250410/header.jpg",
+      "price": 1337000,
+      "amount": 200
+    },
+    {
+      "id": 72,
+      "name": "XBox - Microsoft Gift Card 5$ (US)",
+      "category": "xbox",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/8.9/$5-457x213.png",
+      "price": 125000,
+      "amount": 200
+    },
+    {
+      "id": 73,
+      "name": "XBox - Microsoft Gift Card 10$ (US)",
+      "category": "xbox",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/8.9/$10-457x213.png",
+      "price": 260000,
+      "amount": 200
+    },
+    {
+      "id": 74,
+      "name": "XBox - Microsoft Gift Card 15$ (US)",
+      "category": "xbox",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/8.9/$15-457x213.png",
+      "price": 390000,
+      "amount": 200
+    },
+    {
+      "id": 75,
+      "name": "XBox - Microsoft Gift Card 20$ (US)",
+      "category": "xbox",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/8.9/$20-457x213.png",
+      "price": 520000,
+      "amount": 200
+    },
+    {
+      "id": 76,
+      "name": "XBox - Microsoft Gift Card 25$ (US)",
+      "category": "xbox",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/8.9/25-457x213.png",
+      "price": 650000,
+      "amount": 200
+    },
+    {
+      "id": 77,
+      "name": "Tài khoản Netflix Premium for 5 User (1 tháng)",
+      "category": "other",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh/netflix-457x213.png",
+      "price": 199000,
+      "amount": 200
+    },
+    {
+      "id": 78,
+      "name": "Tài khoản Netflix Premium for 5 User (110 ngày)",
+      "category": "other",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh/netflix-457x213.png",
+      "price": 599000,
+      "amount": 200
+    },
+    {
+      "id": 79,
+      "name": "Gói gia hạn Spotify Premium 01 năm",
+      "category": "other",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-san-pham/g%C3%B3i%20gia%20h%E1%BA%A1n%2012%20th%C3%A1ng-457x213.png",
+      "price": 150000,
+      "amount": 200
+    },
+    {
+      "id": 80,
+      "name": "Gói gia hạn Spotify Premium 6 tháng (Tặng 6 tháng Free)",
+      "category": "other",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-san-pham/g%C3%B3i%20gia%20h%E1%BA%A1n%206%20th%C3%A1ng-457x213.png",
+      "price": 120000,
+      "amount": 200
+    },
+    {
+      "id": 81,
+      "name": "Gia hạn Youtube Premium (2 Tháng)",
+      "category": "other",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/26.3/youtube-pre-457x213.png",
+      "price": 50000,
+      "amount": 200
+    },
+    {
+      "id": 82,
+      "name": "Gia hạn Youtube Premium (6 tháng)",
+      "category": "other",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/Anh%20SP/26.3/youtube-pre-457x213.png",
+      "price": 150000,
+      "amount": 200
+    },
+    {
+      "id": 83,
+      "name": "Code gia hạn Adobe Full App (1 năm)",
+      "category": "other",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh/Banner%20ngang%20inside-457x213.png",
+      "price": 1200000,
+      "amount": 200
+    },
+    {
+      "id": 84,
+      "name": "Tài khoản NordVPN (1 năm)",
+      "category": "other",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh/NordVPN-457x213.png",
+      "price": 150000,
+      "amount": 200
+    },
+    {
+      "id": 85,
+      "name": "Tài khoản Grammarly Premium 6 tháng",
+      "category": "other",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-san-pham/t%C3%A0i%20kho%E1%BA%A3n%20granmmarly-457x213.png",
+      "price": 150000,
+      "amount": 200
+    },
+    {
+      "id": 86,
+      "name": "Discord Nitro 3 Tháng",
+      "category": "other",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/Tien/discordnitro-457x213.png",
+      "price": 290000,
+      "amount": 200
+    },
+    {
+      "id": 87,
+      "name": "Tài khoản học Ngoại Ngữ Cambly ( 30 phút )",
+      "category": "other",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/image_compression/cambly-457x213.png",
+      "price": 45000,
+      "amount": 200
+    },
+    {
+      "id": 88,
+      "name": "Key kích hoạt HMA VPN 1 năm",
+      "category": "other",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/image_compression/05T2DmlfytER0zelDsaVecp-9.1569474148.fit_scale.size_1028x578-457x213.jpeg",
+      "price": 299000,
+      "amount": 200
+    },
+    {
+      "id": 89,
+      "name": "Tài khoản Grammarly Premium 1 năm",
+      "category": "other",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/image_compression/image_2020-09-22_14-34-46-457x213.png",
+      "price": 790000,
+      "amount": 200
+    },
+    {
+      "id": 90,
+      "name": "Saints Row: The Third - The Full Package",
+      "category": "package",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1034450/header.jpg",
+      "price": 164000,
+      "amount": 200
+    },
+    {
+      "id": 91,
+      "name": "Black Squad - M4A1 FIRST RELEASE PACKAGE",
+      "category": "package",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1034450/header.jpg",
+      "price": 219000,
+      "amount": 200
+    },
+    {
+      "id": 92,
+      "name": "Black Squad - AK74M FIRST RELEASE PACKAGE",
+      "category": "package",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1053260/header.jpg",
+      "price": 219000,
+      "amount": 200
+    },
+    {
+      "id": 93,
+      "name": "Fernbus Simulator - Anniversary Repaint Package",
+      "category": "package",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/612260/header.jpg",
+      "price": 26000,
+      "amount": 200
+    },
+    {
+      "id": 94,
+      "name": "Black Squad - START UP PACKAGE",
+      "category": "package",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1106070/header.jpg",
+      "price": 249000,
+      "amount": 200
+    },
+    {
+      "id": 95,
+      "name": "Kritika:REBOOT - Starter Package",
+      "category": "package",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1189480/header.jpg",
+      "price": 289000,
+      "amount": 200
+    },
+    {
+      "id": 96,
+      "name": "My Time At Portia - Player Attire Package",
+      "category": "package",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1075040/header.jpg",
+      "price": 43000,
+      "amount": 200
+    },
+    {
+      "id": 97,
+      "name": "Fernbus Simulator - Multimedia Package",
+      "category": "package",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/602730/header.jpg",
+      "price": 52000,
+      "amount": 200
+    },
+    {
+      "id": 98,
+      "name": "Kingdom Under Fire 2 - War God Package",
+      "category": "package",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1183052/header.jpg",
+      "price": 1696000,
+      "amount": 200
+    },
+    {
+      "id": 99,
+      "name": "Kingdom Under Fire 2 - Emperor Package",
+      "category": "package",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1183051/header.jpg",
+      "price": 499000,
+      "amount": 200
+    },
+    {
+      "id": 100,
+      "name": "[SEA] Black Desert - Silver to Gold Package",
+      "category": "package",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1198361/header.jpg",
+      "price": 693000,
+      "amount": 200
+    },
+    {
+      "id": 101,
+      "name": "[SEA] Black Desert - Bronze to Silver Package",
+      "category": "package",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1218720/header.jpg",
+      "price": 544000,
+      "amount": 200
+    },
+    {
+      "id": 102,
+      "name": "[SEA] Black Desert - Silver to Gold Package",
+      "category": "package",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1198361/header.jpg",
+      "price": 693000,
+      "amount": 200
+    },
+    {
+      "id": 103,
+      "name": "[SEA] Black Desert - Bronze to Gold Package",
+      "category": "package",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1198360/header.jpg",
+      "price": 1249000,
+      "amount": 200
+    },
+    {
+      "id": 104,
+      "name": "Luciel's DLC Package",
+      "category": "package",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/383310/header.jpg",
+      "price": 308000,
+      "amount": 200
+    },
+    {
+      "id": 105,
+      "name": "Call of Duty®: Modern Warfare® 2 Stimulus Package",
+      "category": "package",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/10195/header.jpg",
+      "price": 339000,
+      "amount": 200
+    },
+    {
+      "id": 106,
+      "name": "Distance",
+      "type": "Racing",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/233610/header.jpg",
+      "price": 339000,
+      "amount": 200
+    },
+    {
+      "id": 107,
+      "name": "Coffin Dodgers",
+      "type": "Racing",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/320540/header.jpg",
+      "price": 129000,
+      "amount": 200
+    },
+    {
+      "id": 108,
+      "name": "DiRT 4",
+      "type": "Racing",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/421020/header.jpg",
+      "price": 219000,
+      "amount": 200
+    },
+    {
+      "id": 109,
+      "name": "JRPG Bundle",
+      "type": "Racing",
+      "style": "type",
+      "category": "steam",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/size-3/82862-457x213.jpg",
+      "price": 99000,
+      "amount": 200
+    },
+    {
+      "id": 110,
+      "name": "SPINTIRES™",
+      "type": "Racing",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/263280/header.jpg",
+      "price": 139000,
+      "amount": 200
+    },
+    {
+      "id": 111,
+      "name": "The Crew™ Calling All Units",
+      "type": "Racing",
+      "style": "type",
+      "category": "steam",
+      "image": "hhttps://steamcdn-a.akamaihd.net/steam/apps/512350/header.jpg",
+      "price": 409000,
+      "amount": 200
+    },
+    {
+      "id": 112,
+      "name": "Colin McRae Rally",
+      "type": "Racing",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/287340/header.jpg",
+      "price": 89000,
+      "amount": 200
+    },
+    {
+      "id": 113,
+      "name": "Trailmakers",
+      "type": "Racing",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/585420/header.jpg",
+      "price": 219000,
+      "amount": 200
+    },
+    {
+      "id": 114,
+      "name": "CarX Drift Racing Online",
+      "type": "Racing",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/635260/header.jpg",
+      "price": 164000,
+      "amount": 200
+    },
+    {
+      "id": 115,
+      "name": "Bus Driver Simulator 2019",
+      "type": "Racing",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/679260/header.jpg",
+      "price": 339000,
+      "amount": 200
+    },
+    {
+      "id": 116,
+      "name": "Car Mechanic Simulator 2015 Gold Edition",
+      "type": "Racing",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/subs/76090/header.jpg",
+      "price": 210000,
+      "amount": 200
+    },
+    {
+      "id": 117,
+      "name": "RIDE 3 ",
+      "type": "Racing",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/759740/header.jpg",
+      "price": 389000,
+      "amount": 200
+    },
+    {
+      "id": 118,
+      "name": "Zombie Driver HD Complete Edition",
+      "type": "Racing",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/subs/48344/header.jpg",
+      "price": 164000,
+      "amount": 200
+    },
+    {
+      "id": 119,
+      "name": "Golf With Your Friends",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/431240/header.jpg",
+      "price": 164000,
+      "amount": 200
+    },
+    {
+      "id": 120,
+      "name": "Esports Life: Ep.1 - Dreams of Glory",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/704830/header.jpg",
+      "price": 187000,
+      "amount": 200
+    },
+    {
+      "id": 121,
+      "name": "Football Manager 2020",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1100600/header.jpg",
+      "price": 768000,
+      "amount": 200
+    },
+    {
+      "id": 122,
+      "name": "NBA 2K20",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1089350/header.jpg",
+      "price": 997000,
+      "amount": 200
+    },
+    {
+      "id": 123,
+      "name": "WWE 2K17",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/510510/header.jpg",
+      "price": 880000,
+      "amount": 200
+    },
+    {
+      "id": 124,
+      "name": "WWE 2K18",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/664430/header.jpg",
+      "price": 998000,
+      "amount": 200
+    },
+    {
+      "id": 125,
+      "name": "NBA 2K19",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/841370/header.jpg",
+      "price": 982000,
+      "amount": 200
+    },
+    {
+      "id": 126,
+      "name": "SpeedRunners",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/207140/header.jpg",
+      "price": 164000,
+      "amount": 200
+    },
+    {
+      "id": 127,
+      "name": "NBA 2K18",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/nba2k18-457x213.jpg",
+      "price": 998000,
+      "amount": 200
+    },
+    {
+      "id": 128,
+      "name": "Street Warriors Online",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/417910/header.jpg",
+      "price": 290000,
+      "amount": 200
+    },
+    {
+      "id": 129,
+      "name": "Liftoff",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/410340/header.jpg",
+      "price": 140000,
+      "amount": 200
+    },
+    {
+      "id": 130,
+      "name": "Descenders",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/681280/header.jpg",
+      "price": 219000,
+      "amount": 200
+    },
+    {
+      "id": 131,
+      "name": "Golf It!",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/571740/header.jpg",
+      "price": 109000,
+      "amount": 200
+    },
+    {
+      "id": 132,
+      "name": "Transport Fever",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/446800/header.jpg",
+      "price": 249000,
+      "amount": 200
+    },
+    {
+      "id": 133,
+      "name": "Crazy Fishing",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/594370/header.jpg",
+      "price": 187000,
+      "amount": 200
+    },
+    {
+      "id": 134,
+      "name": "Esports Life Tycoon",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/897410/header.jpg",
+      "price": 187000,
+      "amount": 200
+    },
+    {
+      "id": 135,
+      "name": "Draft Day Sports: Pro Basketball 2018",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/745530/header.jpg",
+      "price": 164000,
+      "amount": 200
+    },
+    {
+      "id": 136,
+      "name": "Fishing Sim World",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/834280/header.jpg",
+      "price": 187000,
+      "amount": 200
+    },
+    {
+      "id": 137,
+      "name": "Eleven: Table Tennis VR",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/488310/header.jpg",
+      "price": 187000,
+      "amount": 200
+    },
+    {
+      "id": 139,
+      "name": "Ultimate Fishing Simulator",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/468920/header.jpg",
+      "price": 178000,
+      "amount": 200
+    },
+    {
+      "id": 140,
+      "name": "Pro Cycling Manager 2017",
+      "type": "Sport",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/525920/header.jpg",
+      "price": 179000,
+      "amount": 200
+    },
+    {
+      "id": 141,
+      "name": "Tomb Raider",
+      "type": "Action",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/203160/header.jpg",
+      "price": 415000,
+      "amount": 200
+    },
+    {
+      "id": 142,
+      "name": "Assassin's Creed® Unity",
+      "type": "Adventure",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/289650/header.jpg",
+      "price": 494000,
+      "amount": 200
+    },
+    {
+      "id": 143,
+      "name": "Portal 2",
+      "type": "Adventure",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/620/header.jpg",
+      "price": 191000,
+      "amount": 200
+    },
+    {
+      "id": 144,
+      "name": "Far Cry 5 - Standard Edition",
+      "type": "Action",
+      "style": "type",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/552520/header.jpg",
+      "price": 988000,
+      "amount": 200
+    }
+  ],
+  "comment": [
+    {
+      "idCMT": 1,
+      "fullname": "Nguyen A",
+      "content": "hay",
+      "rate": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i>",
+      "time": "20:38 23-10-2020",
+      "id": 1
+    },
+    {
+      "idCMT": 10,
+      "fullname": "Nguyen A",
+      "content": "hay",
+      "rate": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i>",
+      "time": "15:49 24-10-2020",
+      "id": 2
+    },
+    {
+      "idCMT": 2,
+      "fullname": "Nguyen A",
+      "content": "1",
+      "rate": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i>",
+      "time": "16:03 26-10-2020",
+      "id": 3
+    },
+    {
+      "idCMT": 2,
+      "fullname": "Nguyen A",
+      "content": "s",
+      "rate": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i>",
+      "time": "16:15 26-10-2020",
+      "id": 4
+    }
+  ],
+  "gameDetail": [
+    {
+      "id": 1,
+      "name": "Fall Guys: Ultimate Knockout",
+      "type": "Casual",
+      "category": "steam",
+      "hot": "https://wongstore.com/uploads/2/2020-09/header_2.jpg",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1097150/header.jpg",
+      "video": "https://www.youtube.com/embed/Wj3dUvGLjNQ",
+      "price": 187000,
+      "amount": 200,
+      "slide": [
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/header.jpg",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_dffa1e7c9c67f84b10a48481713f15d1016698b5.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_ce4bbc7829c339f77e302ca75bbe66b371a71dbe.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_a0758d69b45b016a386761e1415f2227542c27be.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_5482313e285391e79b888ff8b45a1658aff91d86.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_1ece8bbe347c159fc3e87f82d25064d88d15f08f.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_df2d12f278d6c0203e11fece84fc50226ff077d6.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_9e7f6eedd127e33298db07b13b4ff513e71de829.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_feb6f226399553f18fce1116e30ee22680b5f69b.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_8c8140d3239ce4a9199c5e7f16cb81182ef18047.600x338.jpg?t=1595511261",
+        "https://steamcdn-a.akamaihd.net/steam/apps/1097150/ss_b2b6b170330b8af1f50d0e90efad984adafeb281.600x338.jpg?t=1595511261"
+      ],
+      "detail": [
+        {
+          "content": "Bạn sẽ vào vai 1 hạt đậu rơi từ trên trời xuống để bắt đầu ''Shows'' Đó là cách <strong>Fall Guys</strong> bắt đầu trò chơi. Tối đa 60 hạt đậu với nhiều màu sắc khác nhau từ skin tự chọn. Tất cả sẽ tham gia vào từng màn game nhỏ để tìm ra người tồn tại sau cùng. 25 màn game khá đa dạng, chia thành 2 loại chơi đơn và phối hợp đồng đội. Chủ yếu là các cuộc đua vượt chướng ngại vật và một số game liên quan đến quả bóng tròn, đuổi bắt đuôi nhau. Game được lấy cảm hứng từ những gameshow thử thách trên truyền hình, vì vậy mục tiêu duy nhất của bạn sẽ chỉ là trở thành người về đích đầu tiên.Nhà phát triển Mediatonic đã nói rằng họ sẽ thêm vào các màn game mới trong tương lai. Việc trở thành cơn sốt của <strong>Fall Guys</strong> là một điều khá bất ngờ với giới chuyên môn",
+          "image1": "https://hgeqic7azi.vcdn.com.vn/image/ckeditor/image-20200831163511-1.jpeg"
+        },
+        {
+          "content": "Cũng như những tựa game Battle Royale khác, mục tiêu của bạn trong <strong>Fall Guys</strong> là làm cho hạt đậu của mình tồn tại đến giây phút sau cùng và trở thành “The One”. Một trận Battle Royale của <strong>Fall Guys</strong> có tổng cộng 5 vòng đấu, mỗi vòng đấu là một minigame có giới hạn số người qua cửa – khi đã đủ số lượng này, tất cả những ai chưa kịp chạm vạch đích đều sẽ bị loại và phải ngồi ngoài xem người khác chơi hoặc thoát ra khởi đầu một trận đấu mới. Game hiện tại có 25 minigame khác nhau và chúng được chọn một cách ngẫu nhiên ở đầu mỗi vòng đấu.",
+          "image1": "https://hgeqic7azi.vcdn.com.vn/image/ckeditor/image-20200831163511-2.jpeg"
+        },
+        {
+          "content": "Cũng như những tựa game Battle Royale khác, mục tiêu của bạn trong <strong>Fall Guys</strong> là làm cho hạt đậu của mình tồn tại đến giây phút sau cùng và trở thành “The One”. Một trận Battle Royale của <strong>Fall Guys</strong> có tổng cộng 5 vòng đấu, mỗi vòng đấu là một minigame có giới hạn số người qua cửa – khi đã đủ số lượng này, tất cả những ai chưa kịp chạm vạch đích đều sẽ bị loại và phải ngồi ngoài xem người khác chơi hoặc thoát ra khởi đầu một trận đấu mới. Game hiện tại có 25 minigame khác nhau và chúng được chọn một cách ngẫu nhiên ở đầu mỗi vòng đấu.",
+          "image1": "https://hgeqic7azi.vcdn.com.vn/image/ckeditor/image-20200831163511-3.jpeg"
+        },
+        {
+          "content": "Khi đã bị loại khỏi cuộc chơi của <strong>Fall Guys</strong>, Mọt khuyên bạn nên dành ít thời gian để xem người khác chơi nhằm khám phá những minigame mà mình chưa được thấy. Bên cạnh đó, đây còn là một điều hết sức vui nhộn: khi xem những người còn sống sót, bạn sẽ có cảm giác như mình đang ngồi ở hàng ghế khán giả của một trò chơi X-Game thú vị kiểu Wipeout khi được thấy người ta leo trèo, nhảy nhót, đu bám và rồi… rơi tõm xuống dưới thứ chất lỏng nhầy nhụa nhớp nháp bên dưới màn chơi. Đôi khi bạn cũng sẽ bắt gặp những game thủ có kiểu chơi thú vị: thay vì tìm đến vạch đích, họ sẽ tìm cách ngáng chân những người xung quanh và cùng nhau thất bại.",
+          "image1": "https://hgeqic7azi.vcdn.com.vn/image/ckeditor/image-20200831163511-4.jpeg"
+        },
+        {
+          "content": "Nếu Wipe Out chỉ là thử thách cá nhân thì sự vui nhộn của <strong>Fall Guys: Ultimate Knockout</strong> chính là cho tất cả cùng chen lấn lên một lúc. Cảnh xô đẩy, người lăn như dưa, rơi rụng như lá mùa thu khỏi sân đấu vô cùng hài hước. Chính kiểu chơi mới lạ, phi bạo lực này là đặc điểm tuyệt vời nhất giúp <strong>Fall Guys: Ultimate Knockout</strong> chinh phục được rất nhiều game thủ. <strong>Fall Guys: Ultimate Knockout</strong> hiện đang được phát hành trên PC và PS4, đặc biệt nó đang nằm trong danh sách game miễn phí tháng 8 cho những ai sở hữu PS Plus. Có thể nói đây lại là một điểm nổi bật giúp càng nhiều người có thể tiếp cận game hơn nữa.",
+          "image1": "https://hgeqic7azi.vcdn.com.vn/image/ckeditor/image-20200831163511-5.jpeg"
+        },
+        {
+          "content": "Tuy nhiên nhìn chung, đây là một tựa game hoàn hảo cho tất cả mọi người. Nếu bạn là một người không yêu thích thể loại Battle Royale vì trước giờ nó chỉ toàn những hình ảnh hành động, bắn súng không cuốn hút được bạn, thì <strong>Fall Guys</strong> sẽ làm bạn hài lòng bởi hành động đáng yêu của nhân vật và màu sắc tươi sáng của tựa game. Còn nếu bạn muốn tìm một tựa game để chơi cùng bạn bè hay là người thân trong gia đình, thì quả thật, <strong>Fall Guys</strong> là tựa game rất rất thích hợp. Còn nếu bạn cần một trò chơi nhẹ nhàng lành mạnh nhưng vẫn có đôi chút thử thách, có giá trị chơi lại cao thì tất nhiên, <strong>Fall Guys: Ultimate Knockout</strong> là best choice!"
+        }
+      ],
+      "os": "Windows 10 64bit only",
+      "processor": "Intel Core 2 Duo E4700 2.6 GHz or AMD Phenom 9950 Quad Core 2.6 GHz",
+      "memory": "4 GB RAM",
+      "graphics": "1GB ATI Radeon HD 5770, 1GB NVIDIA GeForce GTX 460 or better",
+      "direct": "Version 11",
+      "storage": "2GB available space",
+      "network": "Broadband Internet connection",
+      "os2": "Windows 10 64bit only",
+      "processor2": "Intel Core i5 or AMD equivalent",
+      "memory2": "8 GB RAM",
+      "graphics2": "NVIDIA GTX 660 or AMD Radeon HD 7950",
+      "direct2": "Version 12",
+      "storage2": "2 GB available space",
+      "network2": "Broadband Internet connection"
+    },
+    {
+      "id": 2,
+      "name": "Among Us",
+      "type": "Casual",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/945360/header.jpg",
+      "price": 69000,
+      "amount": 200,
+      "slide": [
+        "https://steamcdn-a.akamaihd.net/steam/apps/945360/header.jpg",
+        "https://steamcdn-a.akamaihd.net/steam/apps/945360/ss_c80d2f3fab624b18d9531adc6957767a7fede100.600x338.jpg?t=1542387642",
+        "https://steamcdn-a.akamaihd.net/steam/apps/945360/ss_a0f2416e11bf5b47788eaa3617e092b73962b145.600x338.jpg?t=1542387642",
+        "https://steamcdn-a.akamaihd.net/steam/apps/945360/ss_649e19ff657fa518d4c2b45bed7ffdc4264a4b3a.600x338.jpg?t=1542387642",
+        "https://steamcdn-a.akamaihd.net/steam/apps/945360/ss_eab32f16b59c005489c10f9063227ed7b54b31ec.600x338.jpg?t=1542387642",
+        "https://steamcdn-a.akamaihd.net/steam/apps/945360/ss_7ccc894b8f95091f608fa012450549091cce2423.600x338.jpg?t=1542387642",
+        "https://steamcdn-a.akamaihd.net/steam/apps/945360/ss_943c487e302fa5fc303d59e45a03218e25a2a59c.600x338.jpg?t=1542387642"
+      ],
+      "video": "https://www.youtube.com/embed/NSJ4cESNQfE",
+      "detail": [
+        {
+          "content": "<p><strong><i>Among Us</i></strong>, một tựa game khá thú vị với lối chơi lạ lẫm. Bạn có thể chơi Online từ 4-10 người. Hãy chơi cùng với bạn bè để tăng thêm sự thú vị.</p><p>Trong game, bạn sẽ vào vai thành viên của một phi hành đoàn trên con tàu vũ trụ cùng với những thành viên khác.</p><p>Trên con tàu này, sẽ có một hoặc nhiều người chơi khác đóng vai những kẻ mạo danh thành viên của phi hành đoàn. Kẻ mạo danh này sẽ phá hoại con tàu và hạ sát tất cả những người chơi chính trực khác. </p><p>Nhiệm vụ của bạn và những phi hành gia chính trực khác sẽ là tìm ra kẻ mạo danh trước khi hắn kịp giết tất cả mọi người và phá hủy con tàu. Một khi có người chết, tất cả thành viên sẽ họp lại và vote để tống cổ tên mạo danh ra khỏi con tàu. </p>",
+          "image1": "https://cdn.cloudflare.steamstatic.com/steam/apps/945360/extras/steam_AboutBanner.png?t=1598556351"
+        },
+        {
+          "content": "Thành viên <strong>phi hành đoàn</strong> được gọi là : <strong>The Crew</strong>. Còn kẻ mạo danh được gọi là : <strong>The Impostor</strong>. Mỗi phe sẽ có một chức năng và nhiệm vụ khác nhau :",
+          "image1": "https://cdn.cloudflare.steamstatic.com/steam/apps/945360/extras/steam_AboutCrew.png?t=1598556351"
+        },
+        {
+          "content": "<ul><li>Chiến thắng bằng cách hoàn thành các nhiệm vụ để chuẩn bị tàu hoặc tiêu diệt tất cả những Kẻ mạo danh.</li><li>Phản ứng nhanh chóng để hoàn tác, sửa chữa các phá hoại của Kẻ mạo danh.</li><li>Kiểm tra bản đồ Admin và camera an ninh để theo dõi các thành viên khác.</li><li>Kiểm tra bản đồ Admin và camera an ninh để theo dõi các thành viên khác.</li><li>Gọi các cuộc họp khẩn cấp để thảo luận về hành vi đáng ngờ.</li><li>Bỏ phiếu để loại bỏ những kẻ giả mạo bị nghi ngờ.</li></ul>",
+          "image1": "https://cdn.cloudflare.steamstatic.com/steam/apps/945360/extras/steam_AboutImpostor.png?t=1598556351"
+        },
+        {
+          "content": "<ul><li>Giết phi hành đoàn và những người khác.</li><li>Giả vờ làm nhiệm vụ để hòa nhập với các phi hành đoàn.</li><li>Lẻn qua các lỗ thông hơi để nhanh chóng di chuyển về con tàu.</li><li>Sử dụng những trò phá hoại để gây hỗn loạn và chia rẽ phi hành đoàn.</li><li>Đóng cửa để bẫy nạn nhân và giết người ở nơi riêng tư.</li></ul>",
+          "image1": "https://cdn.cloudflare.steamstatic.com/steam/apps/945360/extras/steam_AboutMultiPlay.png?t=1598556351"
+        },
+        {
+          "content": "<p><strong>Tính năng khác :</strong></p><ul><li>Tùy chỉnh: Chọn màu và mũ của bạn.</li><li>Nhiều tùy chọn trò chơi: Thêm nhiều kẻ mạo danh hơn, nhiều nhiệm vụ hơn, và nhiều hơn thế nữa!</li><li>Nhanh chóng tìm một Host từ danh sách máy chủ.</li><li>Trò chuyện bằng văn bản trong trò chơi.</li></ul>"
+        }
+      ],
+      "os": "Windows 7 SP1+",
+      "processor": "SSE2 instruction set support",
+      "memory": "1 GB RAM",
+      "graphics": "1GB ATI Radeon HD 5770, 1GB NVIDIA GeForce GTX 460 or better",
+      "direct": "Version 10",
+      "storage": "250 MB available space",
+      "network": "Broadband Internet connection",
+      "os2": "Windows 10 64bit",
+      "processor2": "Intel Core i5 or AMD equivalent",
+      "memory2": "4 GB RAM",
+      "graphics2": "NVIDIA GTX 660 or AMD Radeon HD 7950",
+      "direct2": "Version 12",
+      "storage2": "2 GB available space",
+      "network2": "Broadband Internet connection"
+    },
+    {
+      "id": 10,
+      "name": "Grand Theft Auto V - GTA V",
+      "type": "Action",
+      "category": "steam",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/271590/header.jpg",
+      "slide": [
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_32aa18ab3175e3002217862dd5917646d298ab6b.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_2744f112fa060320d191a50e8b3a92441a648a56.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_da39c16db175f6973770bae6b91d411251763152.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_bd5db78286be0a7c6b2c62519099a9e27e6b06f3.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_b1a1cb7959d6a0e6fcb2d06ebf97a66c9055cef3.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_bc5fc79d3366c837372327717249a4887aa46d63.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_d2eb9d3e50f9e4cb8db37d2976990b3795da8187.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_bd944debbec9936769f6dfb39ee456ca605615e3.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_66daaa8e0416b805ffb9a853235e21468d6b85bc.600x338.jpg?t=1539304955",
+        "https://steamcdn-a.akamaihd.net/steam/apps/271590/ss_3820844756ae43340809e247fea327025dca1e39.600x338.jpg?t=1539304955"
+      ],
+      "video": "https://www.youtube.com/embed/2goDX06q_cM",
+      "detail": [
+        {
+          "content": "<p><i>Grand Theft Auto V </i>(còn được gọi là <i>Grand Theft Auto 5, GTA 5 </i> hoặc <i>GTA V</i>) là trò chơi video được phát triển bởi <i>Rockstar North</i> thuộc hãng <strong>Rockstar Games</strong>. Là phiên bản thứ năm trong Dòng trò chơi <strong>Grand Theft Auto</strong>  và là phần kế tiếp của <i>Grand Theft Auto IV </i>. Bản gốc của trò chơi chính thức được phát hành vào ngày 17 Tháng 9 năm 2013 cho phiên bản Xbox 360 và PlayStation 3. Trò chơi cũng đã được phát hành cho phiên bản Xbox One và PlayStation 4  vào ngày 18 tháng 11 năm 2014, sau đó phát hành cho PC vào ngày 14 tháng 4 năm 2015.</p>",
+          "image1": "https://lh6.googleusercontent.com/ttVeiluzGPoeLDeIkGOdiub8YPEdrT4phTcCw5I3NW0qNpbJx0uDQOkD3r4d94UhziS_abXO98fDdrr6gnzNmvp3rs2g7_Np6YSdMoAAAGNZ11SODXpl7behGUfbK7G3-6g5oh4-"
+        },
+        {
+          "content": "Trò chơi nằm trong mạch truyện chính của series Grand Theft Auto, mạch truyện này được tính là từ khi bắt đầu nội dung của trò chơi Grand Theft Auto IV (2008), không liên hệ nội dung đến các phần trước Grand Theft Auto IV. Nằm trong tiểu bang hư cấu San Andreas, mô phỏng Nam California, câu chuyện nói về ba tên tội phạm và nỗ lực của họ trong việc thực hiện các cuộc tấn công trong thế giới ngầm bên cạnh là chống lại chính phủ và các thế lực khác. Trò chơi được thiết kế theo kiểu thế giới mở cho phép người chơi tự do đi khắp nơi, các vùng nông thôn, rừng núi, hoang mạc và thành phố hư cấu Los Santos, mô phỏng thành phố Los Angeles ngoài đời.",
+          "image1": "https://lh6.googleusercontent.com/WNEkZGtxdeG5lbfXioM6GV7lMpalquIQqcaf8Yu19VbqwBmyUKCuFYkNjPjODJRQlgkGSXOneC-qANJDpbDK2_1eZ76sUkBvxQAAvZaoViJBLI_fO5rLLkQc3W35qit0b4BFzcAY"
+        },
+        {
+          "content": "Trò chơi hỗ trợ chơi theo góc nhìn thứ nhất (<i>FPS</i> - First Person Shooter) và thứ ba (<i>TPS</i> - Third Person Shooter), di chuyển trong thế giới bằng cách điều hướng chân để đi bộ hoặc phương tiện giao thông. Người chơi điều khiển ba nhân vật chính xuyên suốt trò chơi và có thể chuyển đổi điều khiển qua lại giữa các nhân vật ở ngoài hoặc trong nhiệm vụ (một số phân đoạn trong nhiệm vụ buộc người chơi phải điều khiển một nhân vật nhất định hoặc phải chuyển đổi sang nhân vật khác). Câu chuyện chủ yếu xoay quanh những việc của tội phạm như trộm cướp, đánh nhau, liên hệ đến việc bắn súng và lái xe. Hệ thống cảnh sát trong trò chơi sẽ luôn cố gắng kiểm soát người chơi khi thực hiện những hành vi tội ác đến mức độ nào đó bằng cách bắt vào tù hoặc giết, số sao truy nã (tối đa là năm sao) càng cao thì mức độ nguy hiểm của cảnh sát đối với nhân vật càng tăng, tương tự như những phần Grand Theft Auto trước đó. <i>Grand Theft Auto Online </i>, chế độ chơi trực tiếp nhiều người chơi, cho phép lên đến 30 người chơi cùng khám phá thế giới, làm nhiệm vụ, tham gia các trò chơi như đánh nhau, đua xe,...",
+          "image1": "https://lh3.googleusercontent.com/sao6ybmICyRij5_XmLqe_lgXf1UJdETr0bg-9EhP6ZDW0sIpdXtPHUIzKFeFUq6tCRrLHil8CgZK4jxLXD409nLb_VpRdpRJdpDAV_2ihdC92HE2tkdRGKgGd4kqmLH38iCAeIQg"
+        },
+        {
+          "content": "</br>Trò chơi được phát triển ngay sau khi phát hành Grand Theft Auto IV và được thực hiện giữa nhiều studio của Rockstar Games trên toàn thế giới. Nhóm phát triển đã dựa nhiều yếu tố trong cơ chế trò chơi từ các trò chơi trước đó của họ như Red Dead Redemption và Max Payne 3, và thiết kế trò chơi xung quanh ba nhân vật chính để đổi mới lối chơi so với những phiên bản trò chơi trước. Phần lớn công việc tạo trò chơi là công đoạn tạo ra thế giới mở, và các thành viên trong nhóm phát triển đã đến California để nghiên cứu thực địa nơi đây bằng cách chụp nhiều bức ảnh, quay video rồi gửi cho đội thiết kế.",
+          "image1": "https://lh5.googleusercontent.com/deufy32H2wcuJfGnRUMZy6LiAGFcHvIQOpMLVDHWIzrgWxRgdkT0y65GOC20lJvyl35_7j8Lag6QZR-fFDGLQZy13tx8FPwl3dt9R3N5l2b4shcTJGDN6Z8bUapo8n6bPTPKWjSJ"
+        },
+        {
+          "content": "Là trò chơi được mong chờ nhất trong năm 2013, Grand Theft Auto V đã phá vỡ kỷ lục bán hàng của ngành công nghiệp game và trở thành sản phẩm giải trí tăng doanh thu nhanh nhất trong lịch sử, kiếm được 800 triệu USD trong ngày đầu tiên và 1 tỷ USD trong ba ngày. Nó đã nhận được sự ủng hộ rộng rãi, cùng nhiều nhận xét tích cực, khen ngợi về cách thiết kế nhân vật, thế giới mở, đồ họa và lối chơi. Tuy nhiên, tương tự như các phần trò chơi trước, nó cũng vấp phải không ít tranh cãi, kiện tụng về nội dung bạo lực, phân biệt giới tính... Được đánh giá là một trong những trò chơi nổi tiếng nhất của thế hệ thứ 7 (tính từ giai đoạn cuối năm 2005 trở đi) và được công nhận là một trong những trò chơi hay nhất từng được thực hiện, nó đã giành được giải thưởng vào cuối năm là giải thưởng <i>Game of the Year (Trò chơi của năm)</i>. Tính đến hiện tại, GTA 5 đã bán được trên 90 triệu bản trò chơi trên toàn thế giới và là một trong những trò chơi video bán chạy nhất mọi thời đại."
+        },
+        {
+          "content": "</br></br><strong>Q&A:</strong></br></br><strong>Q: Đây là tài khoản GTA V (Acc GTA V)?</strong></br></br>A: Đây là sản phẩm CDKey kích hoạt bản quyền game GTA V."
+        },
+        {
+          "content": "</br></br><strong>Q: Làm thế nào để có tài khoản GTA V (Acc GTA V)?</strong></br></br>A: Tài khoản GTA V chính là tài khoản Steam. Bạn có thể tạo tài khoản Steam dễ và miễn phí tại <a href='https://store.steampowered.com/join/?&snr=1_60_4__62' target='_blank'>ĐÂY</a>. Hướng dẫn tạo tài khoản bạn có thể tham khảo tại <a href='https://www.youtube.com/watch?v=TNoHgjFu7J0&feature=youtu.be' target='_blank'>ĐÂY</a>"
+        },
+        {
+          "content": "</br></br><strong>Q: Sau khi có tài khoản làm thế nào để chơi game?</strong></br></br>A: Sau khi bạn đã tạo được tài khoản theo hướng dẫn bên trên, bạn chỉ cần mua sản phẩm ARK này. Sau đó, bạn sẽ nhận game theo hướng dẫn : <a href='https://divineshop.vn/huong-dan-nhan-game-steam-moi' target='_blank'>TẠI ĐÂY </a> . Tài khoản của bạn sẽ được kích hoạt bản quyền game GTA V và tiến hành cài đặt bình thường sau đó bắt đầu trải nghiệm game."
+        },
+        {
+          "content": "</br></br><strong>Q: Sau khi mua sản phẩm game GTA V ở máy này thì sang máy khác có chơi được không?</strong></br></br>A: Có. Khi mua sản phẩm game là bạn mua cho tài khoản nên khi sang máy khác bạn chỉ cần đăng nhập tài khoản và cài đặt game là có thể chơi được như bình thường."
+        }
+      ],
+      "os": "Windows 10 64 Bit, Windows 8.1 64 Bit, Windows 8 64 Bit, Windows 7 64 Bit Service Pack 1",
+      "processor": "Intel Core 2 Quad CPU Q6600 @ 2.40GHz (4 CPUs) / AMD Phenom 9850 Quad-Core Processor (4 CPUs) @ 2.5GHz",
+      "memory": "4 GB RAM",
+      "graphics": "NVIDIA 9800 GT 1GB / AMD HD 4870 1GB (DX 10, 10.1, 11)",
+      "direct": "100% DirectX 10 compatible",
+      "storage": "65 GB available space",
+      "network": "Broadband Internet connection",
+      "os2": "Windows 10 64 Bit, Windows 8.1 64 Bit, Windows 8 64 Bit, Windows 7 64 Bit Service Pack 1",
+      "processor2": "Intel Core i5 3470 @ 3.2GHz (4 CPUs) / AMD X8 FX-8350 @ 4GHz (8 CPUs)",
+      "memory2": "8 GB RAM",
+      "graphics2": "NVIDIA GTX 660 2GB / AMD HD 7870 2GB",
+      "direct2": "Version 12",
+      "storage2": "72 GB available space",
+      "network2": "Broadband Internet connection"
+    }
+  ]
+}

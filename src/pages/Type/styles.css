@@ -1,0 +1,104 @@
+ * {
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-around ;
+  margin-left: 15px;
+  position: relative;
+}
+.card {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  background: #fff;
+  position: relative;
+  height: 400px;
+  box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.5s ease-in-out;
+}
+.card img {
+  height: 250px;
+}
+.card:hover {
+  
+  transform: scale(1.05);
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(245, 142, 8, 0.5),rgba(0, 76, 155, 0.5));
+  z-index: 10;
+  transition: 0.5s all;
+  opacity: 0;
+}
+.card-info h5 {
+  height: 70px;
+}
+.card-info {
+  padding: 10px;
+}
+.card:hover::before{
+  
+  opacity: 1;
+}
+.card .info {
+  z-index: 11;
+  display: none;
+  transform: translateY(50px);
+  transition: 0.5s all;
+}
+.card:hover .info {
+  display: block;
+  transform: translateY(0);
+  position: relative;
+  bottom: 150px;
+}
+.card .info h5 {
+  margin: 0;
+}
+.card .info p {
+  letter-spacing: 1px;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+.card .info .btn {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: #fff;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.card .info .btn:hover .btn-1 {
+  color: red;
+}
+.card .info .btn:hover .btn-2 {
+  color: green;
+}
+.card:hover .card-info {
+  
+  opacity: 0;
+}
+.info p {
+  margin: 10px;
+}
+.btn-more {
+  text-align: center;
+}
+.sort-content span{
+  margin-left: 30px;
+  cursor: pointer;
+  color: #28abb9;
+}

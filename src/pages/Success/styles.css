@@ -1,0 +1,17 @@
+.success-icon {
+  font-size: 5rem;
+  width: 100%;
+}
+.success-icon i {
+  display: flex;
+  justify-content: center;
+}
+.text-payment {
+  font-size: 22px;
+  text-align: center;
+  font-weight: lighter;
+}
+.btn-class {
+  display: flex;
+  justify-content: flex-end;
+}

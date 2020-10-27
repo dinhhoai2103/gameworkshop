@@ -1,0 +1,62 @@
+.games {
+  margin: 15px;
+  
+}
+.view-more {
+  color: #1a92b6;
+  cursor: pointer;
+}
+.game-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-left: 5px solid orange;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f1f6f9;
+}
+.high-line-container.high-line-2 {
+  background-image: url(https://hgeqic7azi.vcdn.com.vn/assets/resources/banner-1.png);
+  padding: 40px 0 100px 0;
+}
+.high-line-container {
+  background-image: url(https://hgeqic7azi.vcdn.com.vn/assets/resources/banner-1.png);
+  padding: 15px 0;
+  margin-top: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.high-line-container.high-line-2 .text-line-though {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #272727;
+  padding-top: 5px;
+  margin-bottom: 30px;
+}
+.high-line-container.high-line-2 .text-line-though{
+  right: calc(50% + 80px);
+  left: 0;
+}
+ .high-line-container.high-line-2 .text,  .high-line-container.high-line-2 span {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+ .high-line-container.high-line-2 .btn-aqua-bg {
+  width: 120px;
+  border-radius: 4px;
+  margin: 20px auto;
+}
+.btn-aqua-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #21beff;
+  color: #fff;
+  padding: 8px 0;
+  cursor: pointer;
+  background-color: #21beff;
+}

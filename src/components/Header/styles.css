@@ -1,0 +1,532 @@
+#header {
+  background: rgba(10, 10, 10, 0.45);
+  height: 160px;
+  z-index: 1;
+  position: relative;
+  z-index: 99;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.free-header {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0 0 0;
+  color: white;
+}
+.header-support > i {
+  color: white;
+}
+.header-links {
+  cursor: pointer;
+}
+
+.header {
+  background: transparent;
+  margin: 0 auto;
+  width: 960px;
+  position: relative;
+  z-index: 9999999;
+  border: Solid 0 red;
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  display: flex;
+  width: 240px;
+  padding: 14px 0;
+  cursor: pointer;
+}
+.logo img {
+  width: 220px;
+  height: 95px;
+}
+
+.header-search {
+  
+  margin-top: 40px;
+  height: 41px ;
+  
+  
+}
+.ant-select-selector {
+  height: 41px;
+}
+.search-text {
+  width: 400px;
+  padding: 8px 0 12px 10px;
+  font-size: 16px;
+  color: #828282;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+}
+.header-search .HeaderBoxdivider {
+  display: block;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+.HeaderBoxdivider {
+  width: 1px;
+  border-left: solid 1px #d4d4d4;
+  display: inline-block;
+  float: left;
+  vertical-align: top;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.search-icon {
+  padding: 2px 8px 0 0;
+  width: 38px;
+  height: 36px;
+  border: solid 0 red;
+  float: right;
+}
+.search-icon > i {
+  position: relative;
+  top: 5px;
+  right: 3px;
+  font-size: x-large;
+}
+
+.signin-container {
+  cursor: pointer;
+  width: 149px;
+  margin: 17px 0 0 0;
+  border: 0 dashed red;
+}
+.signin-box {
+  width: 149px;
+  margin: 23px 0 0 0;
+  background-image: url(https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/sign-in-dropdown-middle.png);
+  height: 40px;
+  border: solid 0 red;
+}
+.icon-signup {
+  width: 42px;
+  height: 29px;
+  padding-top: 12px;
+  border: Solid 0 red;
+  display: block;
+  float: left;
+}
+.icon-signup > i{
+  width: 10px;
+  height: 18px;
+  border: Solid 0 red;
+  color: orange;
+  display: block;
+  margin: auto;
+}
+.signin-txt {
+  width: 95px;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 5px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.signin-text {
+  width: 100%;
+  padding-top: 5px;
+  font-size: 16px;
+  color: #181818;
+  display: inline-block;
+}
+.account-text {
+  font-size: 8px;
+  color: #828282;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+}
+.cart-container {
+  cursor: pointer;
+  width: 135px;
+  margin: 17px 0 0 6px;
+  height: 40px;
+  border: solid 0 red;
+}
+.cart-box {
+  display: flex;
+  width: 135px;
+  margin: 23px 0 0 6px;
+  background-image: url(https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/sign-in-dropdown-middle.png);
+  height: 40px;
+  border: solid 0 red;
+}
+.icon-cart {
+  width: 45px;
+  display: block;
+  height: 30px;
+
+  padding-top: 11px;
+  border: solid 0 red;
+}
+.icon-cart > i {
+  width: 18px;
+  height: 18px;
+  border: Solid 0 red;
+  color: orange;
+  display: block;
+  margin: auto;
+}
+.cart-info {
+  width: 120px;
+  height: 41px;
+  line-height: 42px;
+  text-align: left;
+  border: solid 0 red;
+  display: flex;
+  align-items: center;
+}
+.cart-value {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #181717;
+  font-size: 16px;
+  padding: 0 7px;
+  display: flex;
+  align-items: center;
+  
+}
+.cart-items {
+  font-size: 16px;
+  color: #828282;
+  font-family: 'Noto Sans JP', sans-serif;
+  padding-left: 0;
+}
+
+
+.show-more-signup {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 4px;
+}
+.show-more-signup > a {
+  width: 149px;
+  background-color: white;
+  color: #000000;
+  position: relative;
+  top: 2px;
+  right: 43px;
+  display: none;
+}
+.show-more-signup > div {
+  width: 149px;
+  background: white;
+  color: #000000;
+  position: relative;
+  top: 2px;
+  right: 43px;
+  display: none;
+}
+.show-more-1 {
+  padding: 15px;
+  height: 56px;
+}
+.show-more-signup .show-more-2 {
+  padding: 2px;
+
+}
+.show-more-register {
+  border: 1px dashed aqua;
+  padding: 5px;
+  
+}
+.show-more-register a {
+  margin-bottom: 10px;
+}
+.signin-box:hover .show-more-signup > a {
+  display: block;
+}
+.signin-box:hover .show-more-signup > div {
+  display: block;
+}
+
+
+/* CSS Document */
+
+
+
+.toggle,
+[id^=drop] {
+	display: none;
+}
+
+
+nav { 
+	margin:0;
+  padding: 0;
+  background-color: rgba(10, 10, 10, 0.45);
+  color: white;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  z-index: 98;
+  border-bottom: 2px solid rgba(225, 225, 225, 0.9);
+}
+ul.menu {
+  background-color: rgba(10, 10, 10, 0.8);
+  
+}
+
+
+.menu a, li {
+  cursor: pointer;
+}
+.menu-title:hover {
+  color: tomato;
+}
+.menu-drop:hover {
+  color: tomato;
+}
+.menu-title {
+  width: 170px;
+  text-align: center;
+}
+a {
+  text-decoration: none !important;
+}
+nav:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: center ;
+	padding:0;
+	margin:0;
+	list-style: none;
+  position: relative;
+	}
+	
+
+nav ul li {
+	margin: 0px;
+	display:inline-block;
+	background-color: rgba(10, 10, 10, 0.45);
+}
+
+nav ul li a:hover {
+  color: tomato;
+  transition: .9s;
+}
+nav ul li a {
+  position: relative;
+  
+}
+nav ul li a:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%) scaleX(0);
+  -webkit-transform: translateX(-50%) scaleX(0);
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: orange;
+  -webkit-transition: transform 250ms;
+  transition: transform 250ms;
+  
+}
+nav ul li a:hover:after {
+  transform: translateX(-50%) scaleX(1);
+  -webkit-transform: translateX(-50%) scaleX(1);
+}
+nav a {
+	display:block;
+	padding:14px 20px;	
+	color:#FFF;
+	font-size:17px;
+	text-decoration:none;
+}
+a.menu-title {
+  background: none;
+}
+
+nav ul li ul li:hover { background: #000000; }
+
+
+nav a:hover { 
+	background-color: #000000; 
+}
+
+nav ul ul {
+	display: none;
+	position: absolute; 
+  top: 50px; 
+  z-index: 97;
+}
+	
+
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+
+nav ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:170px; 
+}
+
+	
+li > a:after { content:  ''; }
+li > a:only-child:after { content: ''; }
+
+
+
+
+@media all and (max-width : 768px) {
+ 
+
+	nav {
+		margin: 0;
+	}
+
+
+	.toggle + a,
+	.menu {
+		display: none;
+	}
+
+
+	.toggle {
+		display: block;
+		padding:14px 20px;
+		color:#FFF;
+		font-size:17px;
+		text-decoration:none;
+    border:none;
+	}
+  
+	.toggle:hover {
+    background-color: #000000;
+
+	}
+
+	[id^=drop]:checked + ul {
+		display: block;
+	}
+
+
+	nav ul li {
+		display: block;
+		width: 100%;
+		}
+
+	nav ul ul .toggle,
+	nav ul ul a {
+		padding: 0 40px;
+	}
+
+	nav ul ul ul a {
+		padding: 0 80px;
+	}
+
+	nav a:hover,
+ 	nav ul ul ul a {
+		background-color: #000000;
+	}
+  
+	nav ul li ul li .toggle,
+	nav ul ul a,
+  nav ul ul ul a{
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px; 
+	}
+  
+  
+	nav ul li ul li .toggle,
+	nav ul ul a {
+		background-color: #212121; 
+	}
+
+	
+	nav ul ul {
+		float: none;
+		position:static;
+		color: #ffffff;
+		/* has to be the same number as the "line-height" of "nav a" */
+	}
+		
+	/* Hide menus on hover */
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+		
+	/* Fisrt Tier Dropdown */
+	nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul ul li {
+		position: static;
+		/* has to be the same number as the "width" of "nav ul ul li" */ 
+
+	}
+  .header.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #header {
+    height: 350px;
+  }
+  nav {
+    background-color: #000000;
+  }
+  .header-search {
+    margin-top: 10px;
+  }
+  iframe {
+    height: 320px;
+  }
+}
+
+@media all and (max-width : 330px) {
+
+	nav ul li {
+		display:block;
+		width: 94%;
+	}
+
+}
+@media all and (max-width: 1024px) {
+  .header.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #header {
+    height: 350px;
+  }
+  .header-search {
+    margin-top: 10px;
+  }
+}
+.hide {
+  display: none !important;
+}
