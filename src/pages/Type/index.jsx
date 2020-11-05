@@ -36,6 +36,8 @@ function Type({ getGameByType, gameType, updateWishlist, addCart }) {
     order: "desc",
   }
 ]
+
+
   const [productPage, setProductPage] = useState(1);
   const [productFilter, setProductFilter] = useState({
     sort: "",

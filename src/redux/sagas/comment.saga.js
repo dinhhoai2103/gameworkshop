@@ -11,9 +11,10 @@ import {
   CREATE_COMMENT_FAIL
 } from '../constants';
 
-function* getComment(){
+function* getComment(action){
   try {
-    const response = yield axios.get(`http://localhost:3001/comment`);
+    const { id } = action.payload
+    const response = yield axios.get(`http://localhost:3001/comment?idCMT=${id}`);
     const data = response.data;
     yield put({
       type: GET_COMMENT_SUCCESS,

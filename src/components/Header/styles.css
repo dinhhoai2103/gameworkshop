@@ -106,7 +106,7 @@ a {
   border: solid 0 red;
 }
 .icon-signup {
-  width: 42px;
+  width: 30px;
   height: 29px;
   padding-top: 12px;
   border: Solid 0 red;
@@ -122,7 +122,6 @@ a {
   margin: auto;
 }
 .signin-txt {
-  width: 95px;
   height: 35px;
   display: flex;
   flex-direction: column;
@@ -391,7 +390,11 @@ nav ul ul ul li {
 li > a:after { content:  ''; }
 li > a:only-child:after { content: ''; }
 
-
+.nav-menu {
+  
+  background-color: #000000;
+  
+}
 
 
 @media all and (max-width : 768px) {
@@ -425,7 +428,7 @@ li > a:only-child:after { content: ''; }
 	[id^=drop]:checked + ul {
 		display: block;
 	}
-
+  
 
 	nav ul li {
 		display: block;
@@ -484,7 +487,10 @@ li > a:only-child:after { content: ''; }
 		position: static;
 		/* has to be the same number as the "width" of "nav ul ul li" */ 
 
-	}
+  }
+  label {
+    margin-bottom: 0 !important;
+  }
   .header.container{
     display: flex;
     flex-direction: column;
@@ -502,6 +508,25 @@ li > a:only-child:after { content: ''; }
   }
   iframe {
     height: 320px;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #000000;
+    position: absolute;
+   
+    left: -100%;
+    opacity: 1;
+    transition: all 0.1s ease;
+  }
+
+  .nav-menu.active {
+    background-color: #000000;
+    left: 0;
+    opacity: 1;
+    transition: all 0.1s ease;
+    z-index: 1;
   }
 }
 

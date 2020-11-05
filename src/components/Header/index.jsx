@@ -19,21 +19,21 @@ function Header({
   getSearchData,
   searchData,
 }) {
-  
   useEffect(() => {
     if (JSON.parse(localStorage.getItem(localStorage.key(0)))) {
       getUser({
-        email: JSON.parse(localStorage.getItem(localStorage.key(0))).email
+        email: JSON.parse(localStorage.getItem(localStorage.key(0))).email,
       });
       getCartData({
-        id: JSON.parse(localStorage.getItem(localStorage.key(0))).id
-      })
+        id: JSON.parse(localStorage.getItem(localStorage.key(0))).id,
+      });
     }
   }, []);
-  
+
   const menuList = [
     {
-      title: "Thể loại",
+      title: "  Thể loại",
+      icon: "fa fa-gamepad",
       path: "/type",
       dropdown: [
         {
@@ -63,7 +63,8 @@ function Header({
       ],
     },
     {
-      title: "Danh mục",
+      title: "  Danh mục",
+      icon: "fa fa-bookmark",
       path: "/category",
       dropdown: [
         {
@@ -105,7 +106,8 @@ function Header({
       ],
     },
     {
-      title: "Thông tin",
+      title: "  Thông tin",
+      icon: "fa fa-info-circle",
       path: "/information",
       dropdown: [
         {
@@ -119,7 +121,8 @@ function Header({
       ],
     },
     {
-      title: "Liên hệ",
+      title: "  Liên hệ",
+      icon: "fa fa-comments",
       path: "/contact",
     },
   ];
@@ -176,7 +179,7 @@ function Header({
           className="show-more-1"
           onClick={() => {
             getUserLogout();
-            history.push("/")
+            history.push("/");
           }}
         >
           <p className="border border-danger text-primary">Đăng xuất</p>
@@ -213,7 +216,6 @@ function Header({
       );
     } else {
       return (
-        
         <div className="cart-container mr-4 ml-2">
           <div className="cart-box" onClick={() => history.push("/cart")}>
             <div className="icon-cart">
@@ -226,10 +228,13 @@ function Header({
             </div>
           </div>
         </div>
-        
       );
     }
   };
+  const [click, setClick] = useState(false);
+
+  const closeMobileMenu = () => setClick(false);
+  const handleClick = () => setClick(!click);
 
   const renderMenu = () => {
     return menuList.map((item, index) => {
@@ -238,15 +243,18 @@ function Header({
           <label htmlFor={`drop-${index}`} className="toggle">
             {item.title}
           </label>
+
           <a
             href
             onClick={() => history.push(item.path)}
             className="menu-title"
+            style={{ fontSize: 18 }}
           >
+            <i className={`${item.icon}`} onClick={closeMobileMenu} />
             {item.title}
           </a>
           <input type="checkbox" id={`drop-${index}`} />
-          <ul key={`menu-drop-${index}`} className="ul-menu"> 
+          <ul key={`menu-drop-${index}`} className="ul-menu">
             {(item.dropdown || []).map((data, index2) => {
               return (
                 <li
@@ -254,7 +262,7 @@ function Header({
                   key={`menuDrop-${index2}`}
                   className="menu-drop"
                 >
-                  <a>{data.data}</a>
+                  <a onClick={closeMobileMenu}>{data.data}</a>
                 </li>
               );
             })}
@@ -307,42 +315,54 @@ function Header({
             </Select>
           </div>
           <div className="d-flex">
-          {renderCartItem()}
-          <div className="signin-container">
-            
-            <div className="signin-box">
-              <div className="icon-signup">
-                <i className="fa fa-user"></i>
-              </div>
-              <span className="HeaderBoxdivider"></span>
-              <div className="signin-txt">
-                {localStorage.length <= 0 ? (
-                  <div className="signin-text" onClick={() => history.push("/login")}>Đăng nhập</div>
-                ) : (
-                  <div className="signin-text" onClick={() => history.push("/user")}>
-                    Hi,{" "}
-                    <b>
-                      {
-                        JSON.parse(localStorage.getItem(localStorage.key(0)))
-                          .lastname
-                      }{" "}
-                    </b>
-                  </div>
-                )}
-                {checkLoginSuccess()}
+            {renderCartItem()}
+            <div className="signin-container">
+              <div className="signin-box">
+                <div className="icon-signup">
+                  <i className="fa fa-user"></i>
+                </div>
+                <span className="HeaderBoxdivider"></span>
+                <div className="signin-txt">
+                  {localStorage.length <= 0 ? (
+                    <div
+                      className="signin-text"
+                      onClick={() => history.push("/login")}
+                    >
+                      Đăng nhập
+                    </div>
+                  ) : (
+                    <div
+                      className="signin-text"
+                      onClick={() => history.push("/user")}
+                    >
+                      Hi,{" "}
+                      <b>
+                        {
+                          JSON.parse(localStorage.getItem(localStorage.key(0)))
+                            .lastname
+                        }{" "}
+                      </b>
+                    </div>
+                  )}
+                  {checkLoginSuccess()}
+                </div>
               </div>
             </div>
-          </div>
           </div>
         </div>
       </div>
 
       <nav>
-        <label htmlFor="drop" className="toggle">
-          Menu
+        <label htmlFor="drop" className="toggle" onClick={handleClick}>
+          <i
+            className={click ? "fa fa-times" : "fa fa-bars"}
+            style={{ fontSize: "1.5em" }}
+          />
         </label>
         <input type="checkbox" id="drop" />
-        <ul className="menu">{renderMenu()}</ul>
+        <ul className="menu" className={click ? "nav-menu active" : "nav-menu"}>
+          {renderMenu()}
+        </ul>
       </nav>
     </>
   );
@@ -354,7 +374,7 @@ const mapStateToProps = (state) => {
   return {
     cartData,
     searchData,
-    userList
+    userList,
   };
 };
 

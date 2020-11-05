@@ -48,7 +48,7 @@ function ListInfo() {
   const renderInfoList = () => {
     return userInfo.map((item, index) => {
       return (
-        <a key={index}
+        <div key={index}
           className={`side-item ${
             sidebarActiveIndex === index ? "sidebar-active" : ""
           }`}
@@ -66,7 +66,7 @@ function ListInfo() {
             </div>
             <div>{item.title2}</div>
           </div>
-        </a>
+        </div>
       );
     });
   };

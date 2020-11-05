@@ -37,7 +37,9 @@ function GameInfo({
     getGameDetail({
       id: match.params.id,
     });
-    getComment();
+    getComment({
+      id: match.params.id,
+    });
   }, [match.params.id]);
   useEffect(() => {
     getSameGame({
@@ -166,40 +168,36 @@ function GameInfo({
     });
   };
   const renderComment = () => {
-    return game.map((itemGame) => {
-      return comment.map((item) => {
+      return comment.map((item, index) => {
         return (
-          itemGame.id === item.idCMT && (
-            <div className="row user-comment">
-              <div
-                className="col-md-1 col-sm-2 col-xs-2"
-                style={{ paddingLeft: "15px" }}
-              >
-                <img
-                  src="https://divineshop.vn/assets/icon/icon-account.png"
-                  alt=""
-                />
+          <div className="row user-comment" key={`comment-${item.id}-${index}`}>
+            <div
+              className="col-md-1 col-sm-2 col-xs-2"
+              style={{ paddingLeft: "15px" }}
+            >
+              <img
+                src="https://divineshop.vn/assets/icon/icon-account.png"
+                alt=""
+              />
+            </div>
+            <div className="col-md-11 col-sm-10 col-xs-10">
+              <div className="detail_rating d-flex">
+                <b>{item.fullname}</b>
+                <span>
+                  <div dangerouslySetInnerHTML={{ __html: `${item.rate}` }} />
+                </span>
               </div>
-              <div className="col-md-11 col-sm-10 col-xs-10">
-                <div className="detail_rating d-flex">
-                  <b>{item.fullname}</b>
-                  <span>
-                    <div dangerouslySetInnerHTML={{ __html: `${item.rate}` }} />
-                  </span>
-                </div>
-                <div style={{ paddingBottom: "5px" }} />
-                <div className="text-review">{item.content}</div>
-                <div style={{ marginTop: "5px", display: "flex" }}>
-                  <div style={{ color: "#a37878", fontSize: "16px" }}>
-                    <small>{item.time}</small>
-                  </div>
+              <div style={{ paddingBottom: "5px" }} />
+              <div className="text-review">{item.content}</div>
+              <div style={{ marginTop: "5px", display: "flex" }}>
+                <div style={{ color: "#a37878", fontSize: "16px" }}>
+                  <small>{item.time}</small>
                 </div>
               </div>
             </div>
-          )
+          </div>
         );
       });
-    });
   };
   const renderSystem = () => {
     return game.map((itemGame) => {
