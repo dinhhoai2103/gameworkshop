@@ -198,14 +198,14 @@ function Category({ gameData, getGameByCategory, updateWishlist, addCart }) {
       </div>
       <div className="btn-more">
         {gameData.length > gameData.length ? (
-          <button className="btn btn-danger">Đã tải xong</button>
+          <div className="btn btn-danger">Đã tải xong</div>
         ) : (
-          <button
+          <div
             className="btn btn-primary"
             onClick={() => handleLoadMoreProducts()}
           >
             Hiển thị thêm
-          </button>
+          </div>
         )}
       </div>
     </>

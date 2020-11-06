@@ -7,21 +7,26 @@
   font-family: 'Noto Sans JP', sans-serif;
 }
 .container-header img {
-background-position: center center;
-background-size: cover;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  
+  object-fit: cover;
+  height: 230px;
+  position: relative;
 }
 .account-title {
-position: absolute;
-top: 38%;
-left: 24%;
-display: flex;
-align-items: center;
+  position: absolute;
+  top: 105px;
+  left: 40px;
+  display: flex;
+  align-items: center;
 }
 .account-img img {
-width: 100px;
-height: 100px;
-background-color: white;
-border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
 }
 .account-name {
 padding: 10px;

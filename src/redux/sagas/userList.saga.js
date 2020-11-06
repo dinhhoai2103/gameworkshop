@@ -81,7 +81,8 @@ function* getUserLogoutSaga(){
   try {
     const response = yield axios.get(`http://localhost:3001/userlist`);
     const data = response.data;
-    localStorage.clear();
+    yield localStorage.clear();
+    yield showAlertNotice({type: 'success', message: 'Đăng xuất thành công'})
     yield put({
       type: GET_USER_LOGOUT_SUCCESS,
       payload: data,

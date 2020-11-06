@@ -187,14 +187,14 @@ function Type({ getGameByType, gameType, updateWishlist, addCart }) {
       </div>
       <div className="btn-more">
         {gameType.length > 91 ? (
-          <button className="btn btn-danger">Đã tải xong</button>
+          <div className="btn btn-danger">Đã tải xong</div>
         ) : (
-          <button
+          <div
             className="btn btn-primary"
             onClick={() => handleLoadMoreProducts()}
           >
             Hiển thị thêm
-          </button>
+          </div>
         )}
       </div>
     </>

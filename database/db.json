@@ -1,12 +1,12 @@
 {
   "userlist": [
     {
-      "firstname": "Nguyen",
-      "lastname": "A",
+      "firstname": "Le",
+      "lastname": "B",
       "email": "hoai@gmail.com",
       "password": "123123123",
-      "phone": "0796855585",
-      "money": 31000,
+      "phone": "0859658996",
+      "money": 41000,
       "time": "27-10-2020",
       "id": 1
     },
@@ -21,40 +21,8 @@
       "id": 2
     }
   ],
-  "wishlist": [
-    {
-      "idUser": 1,
-      "idGame": 2,
-      "name": "Among Us",
-      "image": "https://steamcdn-a.akamaihd.net/steam/apps/945360/header.jpg",
-      "price": 69000,
-      "amount": 200,
-      "id": 1
-    },
-    {
-      "idUser": 1,
-      "idGame": 4,
-      "name": "Left 4 Dead 2",
-      "image": "https://steamcdn-a.akamaihd.net/steam/apps/550/header.jpg",
-      "price": 119000,
-      "amount": 0,
-      "id": 2
-    }
-  ],
-  "cartData": [
-    {
-      "idUser": 1,
-      "idGame": 2,
-      "name": "Among Us",
-      "image": "https://steamcdn-a.akamaihd.net/steam/apps/945360/header.jpg",
-      "price": 69000,
-      "amount": 200,
-      "soluong": 1,
-      "isPay": true,
-      "time": "09:32 29-10-2020",
-      "id": 1
-    }
-  ],
+  "wishlist": [],
+  "cartData": [],
   "gamedata": [
     {
       "id": 1,
@@ -1451,6 +1419,14 @@
       "rate": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i>",
       "time": "14:17 05-11-2020",
       "id": 3
+    },
+    {
+      "idCMT": 5,
+      "fullname": "Le B",
+      "content": "ok",
+      "rate": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i>",
+      "time": "08:30 06-11-2020",
+      "id": 4
     }
   ],
   "gameDetail": [

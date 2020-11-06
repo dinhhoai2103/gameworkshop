@@ -111,7 +111,7 @@ function Wishlist({
             <div className="container">
               <div className="container-header">
                 <img src={banner} alt="" />
-              </div>
+              
               <div className="account-title">
                 <div className="account-img">
                   <div className="up-avatar"></div>
@@ -139,6 +139,7 @@ function Wishlist({
                 <div className="account-info-item">
                   <span>Member</span>
                 </div>
+              </div>
               </div>
               <div className="container-main">
                 <div className="container-body">
