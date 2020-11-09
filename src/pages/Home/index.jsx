@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import "./styles.css";
 import history from "../../util/history";
@@ -7,7 +7,6 @@ import { Carousel } from "antd";
 import {
   getGameList,
   updateWishlist,
-  getCartData,
   addCart,
   getActionGame,
   getAdventureGame,
@@ -19,8 +18,6 @@ function Home({
   getGameList,
   gameList,
   updateWishlist,
-  cartData,
-  getCartData,
   addCart,
   getActionGame,
   getAdventureGame,
@@ -94,7 +91,7 @@ function Home({
             key={`hot-${item.id}-${index}`}
             onClick={() => history.push(`/games/${item.id}`)}
           >
-            <img src={item.hot} alt=""  style={{ width:'100%'}}/>
+            <img src={item.hot} alt="" style={{ width: "100%" }} />
           </div>
         )
       );
@@ -426,7 +423,6 @@ function Home({
 }
 const mapStateToProps = (state) => {
   const { gameList } = state.gameDataReducer;
-  const { cartData } = state.cartDataReducer;
   const {
     actionGame,
     adventureGame,
@@ -436,7 +432,6 @@ const mapStateToProps = (state) => {
   } = state.homeReducer;
   return {
     gameList,
-    cartData,
     actionGame,
     adventureGame,
     casualGame,
@@ -449,7 +444,6 @@ const mapDispatchToProps = (dispatch) => {
   return {
     getGameList: (params) => dispatch(getGameList(params)),
     updateWishlist: (params) => dispatch(updateWishlist(params)),
-    getCartData: (params) => dispatch(getCartData(params)),
     addCart: (params) => dispatch(addCart(params)),
     getActionGame: (params) => dispatch(getActionGame(params)),
     getAdventureGame: (params) => dispatch(getAdventureGame(params)),

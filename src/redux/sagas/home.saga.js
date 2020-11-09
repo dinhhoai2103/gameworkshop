@@ -136,8 +136,6 @@ function* getOtherSaga(action){
   }
 }
 
-
-
 export default function* homeData(){
   yield takeEvery(GET_ACTION_GAME,  getActionGameSaga);
   yield takeEvery(GET_ADVENTURE_GAME,  getAdventureGameSaga);

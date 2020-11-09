@@ -1,17 +1,18 @@
-import { put, takeEvery } from 'redux-saga/effects';
-import axios from 'axios';
+import { put, takeEvery } from "redux-saga/effects";
+import axios from "axios";
 
 import {
   GET_SEARCH_DATA,
   GET_SEARCH_DATA_SUCCESS,
   GET_SEARCH_DATA_FAIL,
+} from "../constants";
 
-} from '../constants';
-
-function* getSearchData(action){
+function* getSearchData(action) {
   try {
-    const { input } = action.payload
-    const response = yield axios.get(`http://localhost:3001/gameData?q=${input}`);
+    const { input } = action.payload;
+    const response = yield axios.get(
+      `http://localhost:3001/gameData?q=${input}`
+    );
     const data = response.data;
     yield put({
       type: GET_SEARCH_DATA_SUCCESS,
@@ -25,10 +26,6 @@ function* getSearchData(action){
   }
 }
 
-
-export default function* searchSaga(){
-  
+export default function* searchSaga() {
   yield takeEvery(GET_SEARCH_DATA, getSearchData);
-
-
 }

@@ -1,8 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { connect } from "react-redux";
+import React from "react";
 import { Button, Modal } from "react-bootstrap";
-import { Formik, Field, Form, ErrorMessage } from "formik";
-import * as Yup from "yup";
 import qrcode from "../../../images/qr-code.svg";
 
 import "./styles.css";
@@ -12,7 +9,6 @@ function QRPayment({
   handleCompleteQR,
   qrModalData,
 }) {
- 
   return (
     <Modal show={isShowQRModal} onHide={handleHideQRModal}>
       <Modal.Header closeButton>

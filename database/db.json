@@ -1,12 +1,12 @@
 {
   "userlist": [
     {
-      "firstname": "Le",
-      "lastname": "B",
+      "firstname": "Pham",
+      "lastname": "Hoai",
       "email": "hoai@gmail.com",
       "password": "123123123",
-      "phone": "0859658996",
-      "money": 41000,
+      "phone": "0896585965",
+      "money": 553000,
       "time": "27-10-2020",
       "id": 1
     },
@@ -19,10 +19,91 @@
       "money": 0,
       "time": "03-11-2020",
       "id": 2
+    },
+    {
+      "firstname": "Nguyen",
+      "lastname": "A",
+      "email": "dinhhoai@gmail.com",
+      "password": "123123123",
+      "phone": "0796665588",
+      "money": 151000,
+      "time": "07-11-2020",
+      "id": 3
     }
   ],
-  "wishlist": [],
-  "cartData": [],
+  "wishlist": [
+    {
+      "idUser": 3,
+      "idGame": 4,
+      "name": "Left 4 Dead 2",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/550/header.jpg",
+      "price": 119000,
+      "amount": 0,
+      "id": 2
+    },
+    {
+      "idUser": 3,
+      "idGame": 8,
+      "name": "Mad Max",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/234140/header.jpg",
+      "price": 187000,
+      "amount": 200,
+      "id": 3
+    },
+    {
+      "idUser": 1,
+      "idGame": 3,
+      "name": "PlayerUnknown's Battlegrounds",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/PUBG-ratbt-457x213.png",
+      "price": 260000,
+      "amount": 200,
+      "id": 4
+    },
+    {
+      "idUser": 1,
+      "idGame": 4,
+      "name": "Left 4 Dead 2",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/550/header.jpg",
+      "price": 119000,
+      "amount": 0,
+      "id": 5
+    },
+    {
+      "idUser": 1,
+      "idGame": 9,
+      "name": "Agrou",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1305420/header.jpg",
+      "price": 139000,
+      "amount": 200,
+      "id": 6
+    }
+  ],
+  "cartData": [
+    {
+      "idUser": 3,
+      "idGame": 3,
+      "name": "PlayerUnknown's Battlegrounds",
+      "image": "https://hgeqic7azi.vcdn.com.vn/image/cache/catalog/Anh-SP-New/PUBG-ratbt-457x213.png",
+      "price": 260000,
+      "amount": 200,
+      "soluong": 1,
+      "isPay": true,
+      "time": "19:21 07-11-2020",
+      "id": 4
+    },
+    {
+      "idUser": 3,
+      "idGame": 2,
+      "name": "Among Us",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/945360/header.jpg",
+      "price": 69000,
+      "amount": 200,
+      "soluong": 1,
+      "isPay": true,
+      "time": "19:21 07-11-2020",
+      "id": 5
+    }
+  ],
   "gamedata": [
     {
       "id": 1,
@@ -1066,7 +1147,7 @@
       "type": "Racing",
       "style": "type",
       "category": "steam",
-      "image": "hhttps://steamcdn-a.akamaihd.net/steam/apps/512350/header.jpg",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/512350/header.jpg",
       "price": 409000,
       "amount": 200
     },
@@ -1397,36 +1478,20 @@
   ],
   "comment": [
     {
-      "idCMT": 3,
+      "idCMT": 8,
       "fullname": "Pham Hoai",
-      "content": "dead game",
-      "rate": "<i class='fa fa-star'></i>",
-      "time": "17:02 27-10-2020",
+      "content": "mad",
+      "rate": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i>",
+      "time": "14:21 07-11-2020",
       "id": 1
     },
     {
-      "idCMT": 3,
-      "fullname": "Pham Dinh Hoai",
+      "idCMT": 1,
+      "fullname": "Pham Hoai",
       "content": "hay",
-      "rate": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i>",
-      "time": "14:17 05-11-2020",
+      "rate": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i>",
+      "time": "18:45 07-11-2020",
       "id": 2
-    },
-    {
-      "idCMT": 10,
-      "fullname": "Pham Dinh Hoai",
-      "content": "Game hay",
-      "rate": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i>",
-      "time": "14:17 05-11-2020",
-      "id": 3
-    },
-    {
-      "idCMT": 5,
-      "fullname": "Le B",
-      "content": "ok",
-      "rate": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i>",
-      "time": "08:30 06-11-2020",
-      "id": 4
     }
   ],
   "gameDetail": [

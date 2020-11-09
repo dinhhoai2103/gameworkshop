@@ -126,6 +126,7 @@ function GameInfo({
       return !item.slide ? (
         <Carousel.Item key={`image-${index}-${item.id}`}>
           <img
+            alt=""
             className="d-block image-slide"
             src={item.image}
             style={{ width: "100%", height: 340 }}
@@ -160,7 +161,7 @@ function GameInfo({
                       __html: `<p>${item2.content}</p>`,
                     }}
                   />
-                  <img src={item2.image1} alt="" className="col-12 mb-2" />
+                  <img alt="" src={item2.image1} className="col-12 mb-2" />
                 </div>
               );
             });
@@ -168,36 +169,36 @@ function GameInfo({
     });
   };
   const renderComment = () => {
-      return comment.map((item, index) => {
-        return (
-          <div className="row user-comment" key={`comment-${item.id}-${index}`}>
-            <div
-              className="col-md-1 col-sm-2 col-xs-2"
-              style={{ paddingLeft: "15px" }}
-            >
-              <img
-                src="https://divineshop.vn/assets/icon/icon-account.png"
-                alt=""
-              />
+    return comment.map((item, index) => {
+      return (
+        <div className="row user-comment" key={`comment-${item.id}-${index}`}>
+          <div
+            className="col-md-1 col-sm-2 col-xs-2"
+            style={{ paddingLeft: "15px" }}
+          >
+            <img
+              alt=""
+              src="https://divineshop.vn/assets/icon/icon-account.png"
+            />
+          </div>
+          <div className="col-md-11 col-sm-10 col-xs-10">
+            <div className="detail_rating d-flex">
+              <b>{item.fullname}</b>
+              <span>
+                <div dangerouslySetInnerHTML={{ __html: `${item.rate}` }} />
+              </span>
             </div>
-            <div className="col-md-11 col-sm-10 col-xs-10">
-              <div className="detail_rating d-flex">
-                <b>{item.fullname}</b>
-                <span>
-                  <div dangerouslySetInnerHTML={{ __html: `${item.rate}` }} />
-                </span>
-              </div>
-              <div style={{ paddingBottom: "5px" }} />
-              <div className="text-review">{item.content}</div>
-              <div style={{ marginTop: "5px", display: "flex" }}>
-                <div style={{ color: "#a37878", fontSize: "16px" }}>
-                  <small>{item.time}</small>
-                </div>
+            <div style={{ paddingBottom: "5px" }} />
+            <div className="text-review">{item.content}</div>
+            <div style={{ marginTop: "5px", display: "flex" }}>
+              <div style={{ color: "#a37878", fontSize: "16px" }}>
+                <small>{item.time}</small>
               </div>
             </div>
           </div>
-        );
-      });
+        </div>
+      );
+    });
   };
   const renderSystem = () => {
     return game.map((itemGame) => {
@@ -206,6 +207,7 @@ function GameInfo({
           itemGame.id === item.id && (
             <>
               <iframe
+                title="video"
                 className="p-3 col-lg-12 col-md-12"
                 width={1060}
                 height={720}
@@ -347,6 +349,7 @@ function GameInfo({
                 <div className="sp-info-top-item col-md-4 col-xs-4 col-sm-4">
                   <div className="sp-info-top-item-icon">
                     <img
+                      alt=""
                       style={{ width: "20px" }}
                       src="https://divineshop.vn//assets/resources/item-icon-1.png"
                     />
@@ -360,6 +363,7 @@ function GameInfo({
                 <div className="sp-info-top-item col-md-4 col-xs-4 col-sm-4">
                   <div className="sp-info-top-item-icon">
                     <img
+                      alt=""
                       style={{ width: "20px" }}
                       src="https://divineshop.vn//assets/resources/item-icon-2.png"
                     />
@@ -374,6 +378,7 @@ function GameInfo({
                 <div className="sp-info-top-item col-md-4 col-xs-4 col-sm-4">
                   <div className="sp-info-top-item-icon">
                     <img
+                      alt=""
                       style={{ width: "35px" }}
                       src="https://divineshop.vn//assets/resources/item-icon-3.png"
                     />
@@ -384,7 +389,7 @@ function GameInfo({
                       <a
                         href="https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/?snr=1_7_7_151_150_1"
                         target="_blank"
-                        rel="nofollow"
+                        rel="noopener noreferrer"
                       >
                         Sản phẩm
                       </a>
@@ -583,7 +588,7 @@ function GameInfo({
         <div className=" col-lg-3 col-md-6" key={`game-${item.id}-${index}`}>
           <div className="wrapper" style={{ marginLeft: 10 }}>
             <div className="card card-1">
-              <img src={item.image} alt="" />
+              <img alt="" src={item.image} />
               <div className="card-info">
                 <h5>{item.name}</h5>
                 <p>{item.type}</p>

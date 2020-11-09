@@ -5,54 +5,44 @@ import {
   UPDATE_CART_SUCCESS,
   DELETE_CART_DATA_SUCCESS,
   DELETE_HISTORY_SUCCESS,
-  PAYMENT_CART_SUCCESS
-} from '../constants'
+  PAYMENT_CART_SUCCESS,
+} from "../constants";
 const initialState = {
   cartData: [],
-  historyData: []
+  historyData: [],
 };
 function cartDataReducer(state = initialState, action) {
   switch (action.type) {
     case GET_CART_DATA_SUCCESS: {
       return {
         ...state,
-        cartData: [
-          ...action.payload,
-        ]
+        cartData: [...action.payload],
       };
-    } 
-
+    }
     case GET_HISTORY_SUCCESS: {
       return {
         ...state,
-        historyData: [
-          ...action.payload,
-        ]
+        historyData: [...action.payload],
       };
-    } 
-
+    }
     case ADD_CART_SUCCESS: {
       const { id, soluong } = action.payload;
       const newCartData = state.cartData;
       const taskIndex = state.cartData.findIndex((item) => item.id === id);
       const editedTask = {
         ...state.cartData[taskIndex],
-        soluong
+        soluong,
       };
       newCartData.splice(taskIndex, 1, editedTask);
       return {
         ...state,
-        cartData: [
-          ...newCartData,
-        ]
+        cartData: [...newCartData],
       };
     }
     case PAYMENT_CART_SUCCESS: {
       return {
         ...state,
-        cartData: [
-          action.payload,
-        ]
+        cartData: [action.payload],
       };
     }
     case UPDATE_CART_SUCCESS: {
@@ -61,18 +51,14 @@ function cartDataReducer(state = initialState, action) {
       const taskIndex = state.cartData.findIndex((item) => item.id === id);
       const editedTask = {
         ...state.cartData[taskIndex],
-        soluong
+        soluong,
       };
       newCartData.splice(taskIndex, 1, editedTask);
       return {
         ...state,
-        cartData: [
-          ...newCartData,
-        ]
+        cartData: [...newCartData],
       };
     }
-    
-   
     case DELETE_CART_DATA_SUCCESS: {
       const { id } = action.payload;
       const newCartData = state.cartData;
@@ -80,12 +66,9 @@ function cartDataReducer(state = initialState, action) {
       newCartData.splice(taskIndex, 1);
       return {
         ...state,
-        cartData: [
-          ...newCartData
-        ]
+        cartData: [...newCartData],
       };
     }
-
     case DELETE_HISTORY_SUCCESS: {
       const { id } = action.payload;
       const newHistoryData = state.historyData;
@@ -93,9 +76,7 @@ function cartDataReducer(state = initialState, action) {
       newHistoryData.splice(taskIndex, 1);
       return {
         ...state,
-        historyData: [
-          ...newHistoryData
-        ]
+        historyData: [...newHistoryData],
       };
     }
     default: {

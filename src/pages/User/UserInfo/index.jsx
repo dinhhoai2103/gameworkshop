@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { connect } from "react-redux";
 import banner from "../../../images/banner.png";
 import user from "../../../images/user.svg";

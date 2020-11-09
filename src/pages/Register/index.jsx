@@ -1,18 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Formik, Field, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import history from "../../util/history";
-import { connect } from 'react-redux'
+import { connect } from "react-redux";
 import moment from "moment";
-import { createUser } from '../../redux/actions'
+import { createUser } from "../../redux/actions";
 import "./styles.css";
 
-function Register({
-  createUser
-}) {
+function Register({ createUser }) {
   useEffect(() => {
     if (localStorage.length > 0) history.push("/");
-  }, [])
+  }, []);
   const handleSubmitForm = (values) => {
     createUser({
       firstname: values.firstname,
@@ -23,8 +21,8 @@ function Register({
       money: 0,
       time: moment().format("DD-MM-YYYY"),
     });
-};
- 
+  };
+
   return (
     <div className="container register-main">
       <div className="register-header">VUI LÒNG ĐĂNG KÝ</div>
@@ -40,19 +38,28 @@ function Register({
               <ul className="register-ul">
                 <li>
                   <div className="register-img">
-                    <img src="https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/icon-express-checkout.png" />
+                    <img
+                      alt="register"
+                      src="https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/icon-express-checkout.png"
+                    />
                     <div className="register-desc">Thanh toán nhanh</div>
                   </div>
                 </li>
                 <li>
                   <div className="register-img">
-                    <img src="https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/icon-promotions.png" />
+                    <img
+                      alt="register"
+                      src="https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/icon-promotions.png"
+                    />
                     <div className="register-desc">Khuyến mại</div>
                   </div>
                 </li>
                 <li>
                   <div className="register-img">
-                    <img src="https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/icon-latest-news.png" />
+                    <img
+                      alt="register"
+                      src="https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/icon-latest-news.png"
+                    />
                     <div className="register-desc">
                       Tin tức &amp; đánh giá mới nhất
                     </div>
@@ -60,7 +67,10 @@ function Register({
                 </li>
                 <li>
                   <div className="register-img">
-                    <img src="https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/icon-stock-via-mail.png" />
+                    <img
+                      alt="register"
+                      src="https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/icon-stock-via-mail.png"
+                    />
                     <div className="register-desc">
                       Khả năng thiết lập thông báo còn hàng qua email
                     </div>
@@ -68,7 +78,10 @@ function Register({
                 </li>
                 <li>
                   <div className="register-img">
-                    <img src="https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/icon-regst-wishlist.png" />
+                    <img
+                      alt="register"
+                      src="https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/icon-regst-wishlist.png"
+                    />
                     <div className="register-desc">Tạo danh sách mong muốn</div>
                   </div>
                 </li>
@@ -112,12 +125,8 @@ function Register({
                   ),
 
                 checkbox: Yup.string().required("Vui lòng đồng ý điều khoản"),
-              })
-              
-              }
-              onSubmit={(values) => 
-                 handleSubmitForm(values)
-                }
+              })}
+              onSubmit={(values) => handleSubmitForm(values)}
             >
               <Form>
                 <div className="form-row">
@@ -229,12 +238,12 @@ function Register({
             </Formik>
             <div className="pt-2 pl-1 link-to-login">
               Nếu đã có tài khoản?{" "}
-              <a
+              <span
                 className="text-primary"
                 onClick={() => history.push("/login")}
               >
                 Nhấn vào đây
-              </a>
+              </span>
             </div>
           </div>
         </div>
@@ -245,13 +254,13 @@ function Register({
 const mapStateToProps = (state) => {
   const { userList } = state.userListReducer;
   return {
-    userList
-  }
+    userList,
+  };
 };
 
 const mapDispatchToProps = (dispatch) => {
   return {
     createUser: (params) => dispatch(createUser(params)),
-  }
-}
+  };
+};
 export default connect(mapStateToProps, mapDispatchToProps)(Register);

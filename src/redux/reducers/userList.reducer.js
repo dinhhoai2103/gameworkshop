@@ -6,90 +6,62 @@ import {
   CREATE_USER_SUCCESS,
   COMPLETE_PAYMENT_SUCCESS,
   COMPLETE_CART_PAYMENT_SUCCESS,
-  UPDATE_INFO_SUCCESS
-
-} from '../constants'
+  UPDATE_INFO_SUCCESS,
+} from "../constants";
 const initialState = {
   userList: [],
-  userInfo: []
+  userInfo: [],
 };
 function userListReducer(state = initialState, action) {
   switch (action.type) {
     case GET_USER_SUCCESS: {
       return {
         ...state,
-        userList: [
-          ...action.payload,
-        ]
+        userList: [...action.payload],
       };
-    } 
+    }
     case GET_USER_LOGIN_SUCCESS: {
       return {
         ...state,
-        userList: [
-          ...action.payload,
-        ]
+        userList: [...action.payload],
       };
-    } 
+    }
     case GET_USER_LOGOUT_SUCCESS: {
       return {
         ...state,
-        userList: [
-          ...action.payload,
-        ]
+        userList: [...action.payload],
       };
-    } 
-    
+    }
     case GET_USER_INFO_SUCCESS: {
       return {
         ...state,
-        userInfo: [
-          ...action.payload,
-        ]
+        userInfo: [...action.payload],
       };
-    } 
-  
+    }
     case CREATE_USER_SUCCESS: {
       return {
         ...state,
-        userList: [
-          ...state.userList,
-          action.payload,
-        ]
+        userList: [...state.userList, action.payload],
       };
     }
     case UPDATE_INFO_SUCCESS: {
       return {
         ...state,
-        userList: [
-          action.payload,
-        ]
+        userList: [action.payload],
       };
     }
-    
     case COMPLETE_PAYMENT_SUCCESS: {
       return {
         ...state,
-        userList: [
-          action.payload,
-        ]
+        userList: [action.payload],
       };
     }
-
     case COMPLETE_CART_PAYMENT_SUCCESS: {
       return {
         ...state,
-        userList: [
-          action.payload,
-        ]
+        userList: [action.payload],
       };
     }
-
-    
-
-
-    
-    
     default: {
       return state;
     }

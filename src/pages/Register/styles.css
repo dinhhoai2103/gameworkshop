@@ -59,6 +59,6 @@
   margin-left: 10px;
   clear: both;
 }
-.link-to-login a {
+.link-to-login span {
   cursor: pointer;
 }

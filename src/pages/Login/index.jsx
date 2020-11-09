@@ -15,11 +15,10 @@ function Login({ getUserLogin }) {
   const checkUserLogin = (values) => {
     getUserLogin({
       email: values.email,
-      password: values.password
-    })
+      password: values.password,
+    });
   };
- 
-  
+
   return (
     <div className="container login-main">
       <div className="login-header">VUI LÒNG ĐĂNG NHẬP</div>
@@ -37,20 +36,29 @@ function Login({ getUserLogin }) {
               <ul className="login-ul">
                 <li>
                   <div className="login-img">
-                    <img src="https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/icon-access.png" />
+                    <img
+                      alt=""
+                      src="https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/icon-access.png"
+                    />
 
                     <div className="login-desc">Truy cập thanh toán nhanh</div>
                   </div>
                 </li>
                 <li>
                   <div className="login-img">
-                    <img src="https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/icon-reward-points.png" />
+                    <img
+                      alt=""
+                      src="https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/icon-reward-points.png"
+                    />
                     <div className="login-desc">Theo dõi đơn hàng</div>
                   </div>
                 </li>
                 <li>
                   <div className="login-img">
-                    <img src="https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/icon-sign-up1.png" />
+                    <img
+                      alt=""
+                      src="https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/image/icon-sign-up1.png"
+                    />
                     <div className="login-desc">
                       Đăng ký nhận tin tức và ưu đãi độc quyền
                     </div>
@@ -59,6 +67,7 @@ function Login({ getUserLogin }) {
                 <li>
                   <div className="login-img">
                     <a
+                      href
                       onClick={() => history.push("/register")}
                       className="btn btn-primary mt-2"
                     >
@@ -143,7 +152,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    getUserLogin: (params) => dispatch(getUserLogin(params))
+    getUserLogin: (params) => dispatch(getUserLogin(params)),
   };
 };
 export default connect(mapStateToProps, mapDispatchToProps)(Login);

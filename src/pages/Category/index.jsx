@@ -27,7 +27,7 @@ function Category({ gameData, getGameByCategory, updateWishlist, addCart }) {
     },
     {
       title: "Tên (A-Z)",
-      sort: "name", 
+      sort: "name",
       order: "asc",
     },
     {
@@ -56,7 +56,7 @@ function Category({ gameData, getGameByCategory, updateWishlist, addCart }) {
       order: "",
       ...objectProduct,
     });
-    setProductPage(1)
+    setProductPage(1);
   }, [productType]);
 
   const handleLoadMoreProducts = () => {
@@ -197,7 +197,7 @@ function Category({ gameData, getGameByCategory, updateWishlist, addCart }) {
         {renderCategoryGame()}
       </div>
       <div className="btn-more">
-        {gameData.length > gameData.length ? (
+        {gameData.length > 142 ? (
           <div className="btn btn-danger">Đã tải xong</div>
         ) : (
           <div

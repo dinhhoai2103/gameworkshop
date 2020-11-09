@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { connect } from "react-redux";
 import banner from "../../../images/banner.png";
 import user from "../../../images/user.svg";
@@ -31,7 +31,7 @@ function User({ userList, changePassword }) {
             <div className="account-title">
               <div className="account-img">
                 <div className="up-avatar"></div>
-                <img className="img-fit" src={user} />
+                <img alt="avatar" className="img-fit" src={user} />
               </div>
               <div className="account-name">
                 <div className="full-name">

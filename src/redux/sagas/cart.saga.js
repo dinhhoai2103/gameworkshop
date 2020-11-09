@@ -1,6 +1,6 @@
-import { put, takeEvery } from 'redux-saga/effects';
-import axios from 'axios';
-import { showAlertNotice } from '../../util/alert';
+import { put, takeEvery } from "redux-saga/effects";
+import axios from "axios";
+import { showAlertNotice } from "../../util/alert";
 import {
   GET_CART_DATA,
   GET_CART_DATA_SUCCESS,
@@ -13,7 +13,7 @@ import {
   ADD_CART,
   ADD_CART_SUCCESS,
   ADD_CART_FAIL,
- 
+
   UPDATE_CART,
   UPDATE_CART_SUCCESS,
   UPDATE_CART_FAIL,
@@ -25,16 +25,18 @@ import {
   DELETE_HISTORY,
   DELETE_HISTORY_SUCCESS,
   DELETE_HISTORY_FAIL,
-
+  
   PAYMENT_CART,
   PAYMENT_CART_SUCCESS,
-  PAYMENT_CART_FAIL
-} from '../constants';
+  PAYMENT_CART_FAIL,
+} from "../constants";
 
-function* getCartDataSaga(action){
+function* getCartDataSaga(action) {
   try {
-    const { id } = action.payload
-    const response = yield axios.get(`http://localhost:3001/cartdata?idUser=${id}&isPay=false`);
+    const { id } = action.payload;
+    const response = yield axios.get(
+      `http://localhost:3001/cartdata?idUser=${id}&isPay=false`
+    );
     const data = response.data;
     yield put({
       type: GET_CART_DATA_SUCCESS,
@@ -48,10 +50,12 @@ function* getCartDataSaga(action){
   }
 }
 
-function* getHistorySaga(action){
+function* getHistorySaga(action) {
   try {
-    const { id } = action.payload
-    const response = yield axios.get(`http://localhost:3001/cartdata?idUser=${id}&isPay=true`);
+    const { id } = action.payload;
+    const response = yield axios.get(
+      `http://localhost:3001/cartdata?idUser=${id}&isPay=true`
+    );
     const data = response.data;
     yield put({
       type: GET_HISTORY_SUCCESS,
@@ -65,28 +69,39 @@ function* getHistorySaga(action){
   }
 }
 
-function* addCartSaga(action){
+function* addCartSaga(action) {
   try {
     const { idGame, idUser, soluong, amount } = action.payload;
-    const dataCart = yield axios.get(`http://localhost:3001/cartdata?idGame=${idGame}&idUser=${idUser}&isPay=${false}`)
-    let response = {}
+    const dataCart = yield axios.get(
+      `http://localhost:3001/cartdata?idGame=${idGame}&idUser=${idUser}&isPay=${false}`
+    );
+    let response = {};
     if (amount <= 0) {
-      showAlertNotice({type: 'error', message: 'Sản phẩm đã hết'})
+      showAlertNotice({ type: "error", message: "Sản phẩm đã hết" });
     } else {
       if (dataCart.data.length > 0) {
-        response = yield axios.patch(`http://localhost:3001/cartdata/${dataCart.data[0].id}`, {
-          soluong:  dataCart.data[0].soluong + soluong,
-        });
+        response = yield axios.patch(
+          `http://localhost:3001/cartdata/${dataCart.data[0].id}`,
+          {
+            soluong: dataCart.data[0].soluong + soluong,
+          }
+        );
       } else {
-        response = yield axios.post(`http://localhost:3001/cartdata`, action.payload);
+        response = yield axios.post(
+          `http://localhost:3001/cartdata`,
+          action.payload
+        );
       }
       const data = response.data;
       yield put({
         type: ADD_CART_SUCCESS,
         payload: data,
       });
-      yield showAlertNotice({type: 'success', message: 'Thêm vào giỏ hàng thành công'})
-  }
+      yield showAlertNotice({
+        type: "success",
+        message: "Thêm vào giỏ hàng thành công",
+      });
+    }
   } catch (error) {
     yield put({
       type: ADD_CART_FAIL,
@@ -97,27 +112,30 @@ function* addCartSaga(action){
 
 function* updateCartSaga(action) {
   try {
-    const { id, soluong} = action.payload;
+    const { id, soluong } = action.payload;
     const response = yield axios.patch(`http://localhost:3001/cartdata/${id}`, {
-      soluong
-  });
-  const data = response.data;
-      yield put({
-        type: UPDATE_CART_SUCCESS,
-        payload: data,
-      });
-      yield showAlertNotice({type: 'success', message: 'Thay đổi giỏ hàng thành công'})
-  }
-  catch (error) {
+      soluong,
+    });
+    const data = response.data;
+    yield put({
+      type: UPDATE_CART_SUCCESS,
+      payload: data,
+    });
+    yield showAlertNotice({
+      type: "success",
+      message: "Thay đổi giỏ hàng thành công",
+    });
+  } catch (error) {
     yield put({
       type: UPDATE_CART_FAIL,
       payload: error,
     });
   }
 }
-function* deleteCartDataSaga(action){
+
+function* deleteCartDataSaga(action) {
   try {
-    const { id } = action.payload
+    const { id } = action.payload;
     yield axios.delete(`http://localhost:3001/cartdata/${id}`);
     yield put({
       type: DELETE_CART_DATA_SUCCESS,
@@ -131,9 +149,9 @@ function* deleteCartDataSaga(action){
   }
 }
 
-function* deleteHistorySaga(action){
+function* deleteHistorySaga(action) {
   try {
-    const { id } = action.payload
+    const { id } = action.payload;
     yield axios.delete(`http://localhost:3001/cartdata/${id}`);
     yield put({
       type: DELETE_HISTORY_SUCCESS,
@@ -147,14 +165,12 @@ function* deleteHistorySaga(action){
   }
 }
 
-function* paymentCartSaga(action){
+function* paymentCartSaga(action) {
   try {
     const { id, isPay, time } = action.payload;
-   
-
-    const response =  yield axios.patch(`http://localhost:3001/cartdata/${id}`, {
+    const response = yield axios.patch(`http://localhost:3001/cartdata/${id}`, {
       isPay,
-      time
+      time,
     });
     const data = response.data;
     yield put({
@@ -168,11 +184,11 @@ function* paymentCartSaga(action){
     });
   }
 }
-export default function* cartDataSaga(){
-  
-  yield takeEvery(GET_CART_DATA,  getCartDataSaga);
-  yield takeEvery(ADD_CART,  addCartSaga);
-  yield takeEvery(UPDATE_CART,  updateCartSaga);
+
+export default function* cartDataSaga() {
+  yield takeEvery(GET_CART_DATA, getCartDataSaga);
+  yield takeEvery(ADD_CART, addCartSaga);
+  yield takeEvery(UPDATE_CART, updateCartSaga);
   yield takeEvery(DELETE_CART_DATA, deleteCartDataSaga);
   yield takeEvery(DELETE_HISTORY, deleteHistorySaga);
   yield takeEvery(PAYMENT_CART, paymentCartSaga);

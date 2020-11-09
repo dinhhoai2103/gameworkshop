@@ -1,32 +1,25 @@
 import {
   GET_WISHLIST_SUCCESS,
   UPDATE_WISHLIST_SUCCESS,
-  DELETE_WISHLIST_SUCCESS
-} from '../constants'
+  DELETE_WISHLIST_SUCCESS,
+} from "../constants";
 const initialState = {
-  wishlist: []
+  wishlist: [],
 };
 function wishlistReducer(state = initialState, action) {
   switch (action.type) {
     case GET_WISHLIST_SUCCESS: {
       return {
         ...state,
-        wishlist: [
-          ...action.payload,
-        ]
+        wishlist: [...action.payload],
       };
-    } 
-   
+    }
     case UPDATE_WISHLIST_SUCCESS: {
       return {
         ...state,
-        wishlist: [
-          ...state.wishlist,
-          action.payload,
-        ]
+        wishlist: [...state.wishlist, action.payload],
       };
     }
-    
     case DELETE_WISHLIST_SUCCESS: {
       const { id } = action.payload;
       const newWishlistData = state.wishlist;
@@ -34,9 +27,7 @@ function wishlistReducer(state = initialState, action) {
       newWishlistData.splice(taskIndex, 1);
       return {
         ...state,
-        wishlist: [
-          ...newWishlistData
-        ]
+        wishlist: [...newWishlistData],
       };
     }
     default: {

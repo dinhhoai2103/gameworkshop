@@ -9,27 +9,35 @@ import {
   GET_USER,
   GET_USER_SUCCESS,
   GET_USER_FAIL,
+
   GET_USER_LOGIN,
   GET_USER_LOGIN_SUCCESS,
   GET_USER_LOGIN_FAIL,
+
   GET_USER_LOGOUT,
   GET_USER_LOGOUT_SUCCESS,
   GET_USER_LOGOUT_FAIL,
+
   GET_USER_INFO,
   GET_USER_INFO_SUCCESS,
   GET_USER_INFO_FAIL,
+
   CREATE_USER,
   CREATE_USER_SUCCESS,
   CREATE_USER_FAIL,
+
   CHANGE_PASSWORD,
   CHANGE_PASSWORD_SUCCESS,
   CHANGE_PASSWORD_FAIL,
+
   UPDATE_INFO,
   UPDATE_INFO_SUCCESS,
   UPDATE_INFO_FAIL,
+
   COMPLETE_PAYMENT,
   COMPLETE_PAYMENT_SUCCESS,
   COMPLETE_PAYMENT_FAIL,
+
   COMPLETE_CART_PAYMENT,
   COMPLETE_CART_PAYMENT_SUCCESS,
   COMPLETE_CART_PAYMENT_FAIL
@@ -55,7 +63,6 @@ function* getUserSaga(action){
 
 function* getUserLoginSaga(action){
   try {
-    
     const { email, password } = action.payload
     const response = yield axios.get(`http://localhost:3001/userlist?email=${email}&password=${password}`);
     const data = response.data;
@@ -77,6 +84,7 @@ function* getUserLoginSaga(action){
     });
   }
 }
+
 function* getUserLogoutSaga(){
   try {
     const response = yield axios.get(`http://localhost:3001/userlist`);
@@ -94,6 +102,7 @@ function* getUserLogoutSaga(){
     });
   }
 }
+
 function* getUserInfoSaga(){
   try {
     const response = yield axios.get(`http://localhost:3001/userInfo`);
@@ -109,6 +118,7 @@ function* getUserInfoSaga(){
     });
   }
 }
+
 function* createUserSaga(action){
   try {
     const { email } = action.payload
@@ -135,6 +145,7 @@ function* createUserSaga(action){
     });
   }
 }
+
 function* changePasswordSaga(action){
   try {
     const { id, password } = action.payload
@@ -152,6 +163,7 @@ function* changePasswordSaga(action){
     });
   }
 }
+
 function* updateInfoSaga(action){
   try {
     const { id, firstname, lastname, phone } = action.payload
@@ -170,6 +182,7 @@ function* updateInfoSaga(action){
     });
   }
 }
+
 function* completePaymentSaga(action){
   try {
     const { id, money } = action.payload
@@ -188,6 +201,7 @@ function* completePaymentSaga(action){
     });
   }
 }
+
 function* completeCartPaymentSaga(action){
   try {
     const { id, money } = action.payload
@@ -206,12 +220,7 @@ function* completeCartPaymentSaga(action){
   }
 }
 
-
-
-
-
 export default function* userListSaga(){
-  
   yield takeEvery(GET_USER, getUserSaga);
   yield takeEvery(GET_USER_LOGIN, getUserLoginSaga);
   yield takeEvery(GET_USER_LOGOUT, getUserLogoutSaga);

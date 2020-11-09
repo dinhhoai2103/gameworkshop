@@ -4,7 +4,7 @@ import {
   GET_CASUAL_GAME_SUCCESS,
   GET_MOBILE_GAME_SUCCESS,
   GET_OTHER_SUCCESS,
-  GET_SAME_GAME_SUCCESS
+  GET_SAME_GAME_SUCCESS,
 } from "../constants";
 const initialState = {
   actionGame: [],
@@ -12,7 +12,7 @@ const initialState = {
   casualGame: [],
   mobileGame: [],
   other: [],
-  sameGame: []
+  sameGame: [],
 };
 function homeReducer(state = initialState, action) {
   switch (action.type) {

@@ -31,6 +31,7 @@ function* getWishlistSaga(action){
     });
   }
 }
+
 function* updateWishlistSaga(action){
   try {
     const { idGame, idUser } = action.payload;
@@ -54,6 +55,7 @@ function* updateWishlistSaga(action){
     });
   }
 }
+
 function* deleteWishlistSaga(action){
   try {
     const { id } = action.payload
@@ -69,8 +71,8 @@ function* deleteWishlistSaga(action){
     });
   }
 }
+
 export default function* wishlistSaga(){
-  
   yield takeEvery(GET_WISHLIST,  getWishlistSaga);
   yield takeEvery(UPDATE_WISHLIST, updateWishlistSaga);
   yield takeEvery(DELETE_WISHLIST, deleteWishlistSaga);

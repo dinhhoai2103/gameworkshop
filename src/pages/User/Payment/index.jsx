@@ -59,7 +59,7 @@ function Payment({ completePayment, getUser }) {
             <div className="account-title">
               <div className="account-img">
                 <div className="up-avatar"></div>
-                <img className="img-fit" src={user} />
+                <img alt="avatar" className="img-fit" src={user} />
               </div>
               <div className="account-name">
                 <div className="full-name">
@@ -121,6 +121,7 @@ function Payment({ completePayment, getUser }) {
                   header={
                     <div className="payment-container">
                       <img
+                        alt="method"
                         src="https://hgeqic7azi.vcdn.com.vn/image/catalog/Logo-bank/qrpay2.png"
                         height="40px"
                         width="40px"
@@ -184,6 +185,7 @@ function Payment({ completePayment, getUser }) {
                   header={
                     <div className="payment-container">
                       <img
+                        alt="method"
                         src="https://hgeqic7azi.vcdn.com.vn/image/catalog/Logo-bank/Viettel.png"
                         height="40px"
                         width="40px"
@@ -208,6 +210,7 @@ function Payment({ completePayment, getUser }) {
                   header={
                     <div className="payment-container">
                       <img
+                        alt="method"
                         src="https://hgeqic7azi.vcdn.com.vn/image/catalog/Logo-bank/Garena-trang.png"
                         height="40px"
                         width="40px"
@@ -230,6 +233,7 @@ function Payment({ completePayment, getUser }) {
                   header={
                     <div className="payment-container">
                       <img
+                        alt="method"
                         src="https://hgeqic7azi.vcdn.com.vn/image/catalog/Logo-bank/Momo.png"
                         height="40px"
                         width="40px"
@@ -294,6 +298,7 @@ function Payment({ completePayment, getUser }) {
                   header={
                     <div className="payment-container">
                       <img
+                        alt="method"
                         src="https://hgeqic7azi.vcdn.com.vn/image/catalog/Logo-bank/bank.png"
                         height="40px"
                         width="40px"

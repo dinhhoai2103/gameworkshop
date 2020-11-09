@@ -133,12 +133,17 @@ function Header({
     return localStorage.length <= 0 ? (
       <div>
         <div className="show-more-signup">
-          <a className="show-more-1" onClick={() => history.push("/login")}>
+          <a
+            href
+            className="show-more-1"
+            onClick={() => history.push("/login")}
+          >
             <p className="border border-primary text-primary">ĐĂNG NHẬP</p>
           </a>
           <div className="show-more-register">
             <div>Thành viên mới?</div>
             <a
+              href
               className="text-primary"
               onClick={() => history.push("/register")}
             >
@@ -149,33 +154,44 @@ function Header({
       </div>
     ) : (
       <div className="show-more-signup">
-        <a className="show-more-2 pt-2">
+        <a href className="show-more-2 pt-2">
           <p>
             {format2(
               JSON.parse(localStorage.getItem(localStorage.key(0))).money
             )}{" "}
-            <i className="fa fa-money"></i>
+            VNĐ
           </p>
         </a>
         <a
+          href
           className="show-more-2 pb-2"
           onClick={() => history.push("/payment")}
         >
           Nạp tiền
         </a>
-        <a className="show-more-2 pb-2" onClick={() => history.push("/user")}>
+        <a
+          href
+          className="show-more-2 pb-2"
+          onClick={() => history.push("/user")}
+        >
           Tài khoản
         </a>
         <a
+          href
           className="show-more-2 pb-2"
           onClick={() => history.push("/wishlist")}
         >
           Danh sách yêu thích
         </a>
-        <a className="show-more-2 " onClick={() => history.push("/history")}>
+        <a
+          href
+          className="show-more-2 "
+          onClick={() => history.push("/history")}
+        >
           Lịch sử mua hàng
         </a>
         <a
+          href
           className="show-more-1"
           onClick={() => {
             getUserLogout();
@@ -262,7 +278,9 @@ function Header({
                   key={`menuDrop-${index2}`}
                   className="menu-drop"
                 >
-                  <a onClick={closeMobileMenu}>{data.data}</a>
+                  <a href onClick={closeMobileMenu}>
+                    {data.data}
+                  </a>
                 </li>
               );
             })}
@@ -287,9 +305,7 @@ function Header({
             <i className="fa fa-phone"></i>
             <span>&nbsp;&nbsp;0123-456-789&nbsp;&nbsp;</span>
             <span> | </span>
-            <span>&nbsp;&nbsp;Blog&nbsp;&nbsp;</span>
-            <span> | </span>
-            <span>&nbsp;&nbsp;Địa chỉ cửa hàng&nbsp;&nbsp;</span>
+            <span>&nbsp;&nbsp;Địa chỉ&nbsp;&nbsp;</span>
           </div>
         </div>
         <div className="header container">
@@ -360,7 +376,7 @@ function Header({
           />
         </label>
         <input type="checkbox" id="drop" />
-        <ul className="menu" className={click ? "nav-menu active" : "nav-menu"}>
+        <ul className={`menu ${click ? "nav-menu active" : "nav-menu"}`}>
           {renderMenu()}
         </ul>
       </nav>

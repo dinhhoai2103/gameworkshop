@@ -24,6 +24,7 @@ function History({ getHistory, historyData, deleteHistory }) {
             <td className="text-center">
               <span onClick={() => history.push(`/games/${item.idGame}`)}>
                 <img
+                  alt="description"
                   style={{ width: "100px", height: "auto" }}
                   src={item.image}
                 />
@@ -76,7 +77,7 @@ function History({ getHistory, historyData, deleteHistory }) {
             <div className="account-title">
               <div className="account-img">
                 <div className="up-avatar"></div>
-                <img className="img-fit" src={user} />
+                <img className="img-fit" alt="avatar" src={user} />
               </div>
               <div className="account-name">
                 <div className="full-name">

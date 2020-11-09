@@ -11,38 +11,37 @@ function Type({ getGameByType, gameType, updateWishlist, addCart }) {
   }
   const sortPrice = [
     {
-        title: "Nổi bật",
-        sort: "",
-        order: "",
+      title: "Nổi bật",
+      sort: "",
+      order: "",
     },
     {
-        title: "Giá (Thấp > Cao)",
-        sort: "price",
-        order: "asc",
+      title: "Giá (Thấp > Cao)",
+      sort: "price",
+      order: "asc",
     },
     {
-        title: "Giá (Cao > Thấp)",
-        sort: "price",
-        order: "desc",
+      title: "Giá (Cao > Thấp)",
+      sort: "price",
+      order: "desc",
     },
     {
       title: "Tên (A-Z)",
       sort: "name",
       order: "asc",
-  },
-  {
-    title: "Tên (Z-A)",
-    sort: "name",
-    order: "desc",
-  }
-]
-
+    },
+    {
+      title: "Tên (Z-A)",
+      sort: "name",
+      order: "desc",
+    },
+  ];
 
   const [productPage, setProductPage] = useState(1);
   const [productFilter, setProductFilter] = useState({
     sort: "",
     order: "",
-});
+  });
   const urlParams = new URL(window.location.href);
   const productType = urlParams.searchParams.get("type");
   useEffect(() => {
@@ -54,7 +53,7 @@ function Type({ getGameByType, gameType, updateWishlist, addCart }) {
       order: "",
       ...objectProduct,
     });
-    setProductPage(1)
+    setProductPage(1);
   }, [productType]);
   const handleLoadMoreProducts = () => {
     getGameByType({
@@ -68,18 +67,18 @@ function Type({ getGameByType, gameType, updateWishlist, addCart }) {
   };
   const handleClickPriceFilter = (item) => {
     getGameByType({
-        more: false,
-        page: 1,
-        sort: item.sort,
-        order: item.order,
-        ...productType && { type: productType }
+      more: false,
+      page: 1,
+      sort: item.sort,
+      order: item.order,
+      ...(productType && { type: productType }),
     });
     setProductFilter({
       sort: item.sort,
       order: item.order,
-  });
+    });
     setProductPage(1);
-}
+  };
   const addToWishlist = (item) => {
     if (localStorage.length <= 0) {
       return <div>{history.push("/login")}</div>;
@@ -158,15 +157,15 @@ function Type({ getGameByType, gameType, updateWishlist, addCart }) {
   const renderSort = () => {
     return sortPrice.map((item, index) => {
       return (
-        <span 
-        key={`sort-${index}`}
-        onClick={() => handleClickPriceFilter(item)}
+        <span
+          key={`sort-${index}`}
+          onClick={() => handleClickPriceFilter(item)}
         >
           {item.title}
         </span>
-      )
-    })
-  }
+      );
+    });
+  };
   return (
     <>
       <div className="container row col-lg-12 card-main">
@@ -178,9 +177,7 @@ function Type({ getGameByType, gameType, updateWishlist, addCart }) {
             <div style={{ textTransform: "uppercase" }}>
               {!productType ? "GAME BY TYPE" : productType}
             </div>
-            <div className="sort-content">
-            {renderSort()}
-            </div>
+            <div className="sort-content">{renderSort()}</div>
           </div>
         </div>
         {renderGame()}
